@@ -46,9 +46,6 @@ class ListTipsVC: UIViewController {
     @IBOutlet weak var tips9Label: UILabel!
     @IBOutlet weak var tips9Image: UIImageView!
     
-    @IBOutlet weak var tips10View: UIView!
-    @IBOutlet weak var tips10Label: UILabel!
-    @IBOutlet weak var tips10Image: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,7 +62,6 @@ class ListTipsVC: UIViewController {
         tips7()
         tips8()
         tips9()
-        tips10()
         
     }
     func demam() {
@@ -76,8 +72,8 @@ class ListTipsVC: UIViewController {
         tips1VIew.layer.shadowRadius = 4.0
         
         tips1Label.text = "Demam Pada Bayi"
-        tips1Image.image = UIImage(named: "")
-        tips1Image.translatesAutoresizingMaskIntoConstraints = false
+        tips1Image.image = UIImage(named: "demam")
+//        tips1Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips2() {
@@ -89,7 +85,7 @@ class ListTipsVC: UIViewController {
         
         tips2Label.text = "Bradicardia"
         tips2Image.image = UIImage(named: "bradicardia")
-        tips2Image.translatesAutoresizingMaskIntoConstraints = false
+//        tips2Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips3() {
@@ -101,7 +97,7 @@ class ListTipsVC: UIViewController {
         
         tips3Label.text = "Hipothermia"
         tips3Image.image = UIImage(named: "hipothermia")
-        tips3Image.translatesAutoresizingMaskIntoConstraints = false
+//        tips3Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips4() {
@@ -113,7 +109,7 @@ class ListTipsVC: UIViewController {
         
         tips4Label.text = "Takikardia"
         tips4Image.image = UIImage(named: "takikardia")
-        tips4Image.translatesAutoresizingMaskIntoConstraints = false
+//        tips4Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips5() {
@@ -125,7 +121,7 @@ class ListTipsVC: UIViewController {
         
         tips5Label.text = "Berat Badan Lahir Rendah (BBLR)"
         tips5Image.image = UIImage(named: "beratBadanLahirRendah")
-        tips5Image.translatesAutoresizingMaskIntoConstraints = false
+//        tips5Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips6() {
@@ -135,9 +131,9 @@ class ListTipsVC: UIViewController {
         tips6View.layer.shadowOpacity = 0.3
         tips6View.layer.shadowRadius = 4.0
         
-        tips6Label.text = "Berat Badan Berlebih (Obesitas)"
-        tips6Image.image = UIImage(named: "")
-        tips6Image.translatesAutoresizingMaskIntoConstraints = false
+        tips6Label.text = "Humidity Kabin Tinggi"
+        tips6Image.image = UIImage(named: "humidityKabinTinggi")
+//        tips6Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips7() {
@@ -147,9 +143,9 @@ class ListTipsVC: UIViewController {
         tips7View.layer.shadowOpacity = 0.3
         tips7View.layer.shadowRadius = 4.0
         
-        tips7Label.text = "Humidity Kabin Tinggi"
-        tips7Image.image = UIImage(named: "humidityKabinTinggi")
-        tips7Image.translatesAutoresizingMaskIntoConstraints = false
+        tips7Label.text = "Humidity Kabin Rendah"
+        tips7Image.image = UIImage(named: "humidityRendah")
+//        tips7Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips8() {
@@ -159,9 +155,9 @@ class ListTipsVC: UIViewController {
         tips8View.layer.shadowOpacity = 0.3
         tips8View.layer.shadowRadius = 4.0
         
-        tips8Label.text = "Humidity Kabin Rendah"
-        tips8Image.image = UIImage(named: "")
-        tips8Image.translatesAutoresizingMaskIntoConstraints = false
+        tips8Label.text = "Temperatur Kabin Tinggi"
+        tips8Image.image = UIImage(named: "temperatureKabinTinggi")
+//        tips8Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
     func tips9() {
@@ -171,20 +167,9 @@ class ListTipsVC: UIViewController {
         tips9View.layer.shadowOpacity = 0.3
         tips9View.layer.shadowRadius = 4.0
         
-        tips9Label.text = "Temperatur Kabin Tinggi"
-        tips9Image.image = UIImage(named: "temperatureKabinTinggi")
-        tips9Image.translatesAutoresizingMaskIntoConstraints = false
+        tips9Label.text = "Temperature Kabin Rendah"
+        tips9Image.image = UIImage(named: "temperatureKabinRendah")
+//        tips9Image.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    func tips10() {
-        tips10View.layer.cornerRadius = 15
-        tips10View.layer.shadowColor = UIColor.black.cgColor
-        tips10View.layer.shadowOffset = CGSize(width: 0, height: 0)
-        tips10View.layer.shadowOpacity = 0.3
-        tips10View.layer.shadowRadius = 4.0
-        
-        tips10Label.text = "Temperature Kabin Rendah"
-        tips10Image.image = UIImage(named: "temperatureKabinRendah")
-        tips10Image.translatesAutoresizingMaskIntoConstraints = false
-    }
 }
