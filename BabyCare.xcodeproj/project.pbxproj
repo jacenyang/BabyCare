@@ -18,6 +18,8 @@
 		9684E459256DFE4900A52E2B /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E458256DFE4900A52E2B /* SensorManager.swift */; };
 		9684E45C256DFE6F00A52E2B /* SensorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E45B256DFE6F00A52E2B /* SensorModel.swift */; };
 		9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E45E256DFE9100A52E2B /* SensorData.swift */; };
+		96ADB79E256F57C1004D98F7 /* Indicators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ADB79D256F57C1004D98F7 /* Indicators.storyboard */; };
+		96ADB7A1256F57FD004D98F7 /* IndicatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ADB7A0256F57FD004D98F7 /* IndicatorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		9684E458256DFE4900A52E2B /* SensorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorManager.swift; sourceTree = "<group>"; };
 		9684E45B256DFE6F00A52E2B /* SensorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorModel.swift; sourceTree = "<group>"; };
 		9684E45E256DFE9100A52E2B /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
+		96ADB79D256F57C1004D98F7 /* Indicators.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Indicators.storyboard; sourceTree = "<group>"; };
+		96ADB7A0256F57FD004D98F7 /* IndicatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			children = (
 				960B0B65256B554E000E40C3 /* Main.storyboard */,
 				967063D7256B6275007F30B0 /* Onboarding.storyboard */,
+				96ADB79D256F57C1004D98F7 /* Indicators.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 			children = (
 				960B0B63256B554E000E40C3 /* ViewController.swift */,
 				960B0B7F256B5CE0000E40C3 /* OnboardingViewController.swift */,
+				96ADB7A0256F57FD004D98F7 /* IndicatorsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				960B0B6C256B554F000E40C3 /* LaunchScreen.storyboard in Resources */,
+				96ADB79E256F57C1004D98F7 /* Indicators.storyboard in Resources */,
 				960B0B69256B554F000E40C3 /* Assets.xcassets in Resources */,
 				960B0B67256B554E000E40C3 /* Main.storyboard in Resources */,
 				967063D8256B6275007F30B0 /* Onboarding.storyboard in Resources */,
@@ -177,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ADB7A1256F57FD004D98F7 /* IndicatorsViewController.swift in Sources */,
 				9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */,
 				960B0B64256B554E000E40C3 /* ViewController.swift in Sources */,
 				960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */,

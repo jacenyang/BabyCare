@@ -39,9 +39,6 @@ class ViewController: UIViewController {
         bigView.layer.cornerRadius = 15
         smallView.layer.cornerRadius = 15
         
-        conditionLabel.textColor = UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
-        conditionLabel.text = "Bunda, suhu Bubu meningkat nih, tolong cek ya Bun!"
-        
         sensorManager.delegate = self
         sensorManager.fetchSensor()
     }
@@ -84,6 +81,9 @@ extension ViewController: SensorManagerDelegate {
             self.pulseImageView.animationRepeatCount = 0
             self.pulseImageView.image = self.babyTempImageView.animationImages?.first
             self.pulseImageView.startAnimating()
+            
+            self.conditionLabel.textColor = UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
+            self.conditionLabel.text = sensor.condition
         }
     }
     

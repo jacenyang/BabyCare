@@ -33,7 +33,7 @@ struct SensorModel {
     var pulseDesc: String {
         let pulseNumber = Int(pulse)!
         switch pulseNumber {
-        case 1..<170:
+        case 0..<170:
             return "Melambat"
         case 170...190:
             return "Normal"
@@ -47,7 +47,7 @@ struct SensorModel {
     var pulseColor: UIColor {
         let pulseNumber = Int(pulse)!
         switch pulseNumber {
-        case 1..<170:
+        case 0..<170:
             return UIColor.red
         case 170...190:
             return UIColor.green
@@ -63,7 +63,7 @@ struct SensorModel {
         let pulseRoundedString = String(format: "%0.0f", pulseRoundedDouble!)
         let pulseNumber = Double(pulseRoundedString)!
         switch pulseNumber {
-        case 1..<170:
+        case 0..<170:
             return "lowPulse"
         case 170...190:
             return "normalPulse"
@@ -84,7 +84,7 @@ struct SensorModel {
         let babyTempRoundedString = String(format: "%0.1f", babyTempRoundedDouble!)
         let babyTempNumber = Double(babyTempRoundedString)!
         switch babyTempNumber {
-        case 0.1..<36.5:
+        case 0.0..<36.5:
             return "Menurun"
         case 36.5...37.5:
             return "Normal"
@@ -100,7 +100,7 @@ struct SensorModel {
         let babyTempRoundedString = String(format: "%0.1f", babyTempRoundedDouble!)
         let babyTempNumber = Double(babyTempRoundedString)!
         switch babyTempNumber {
-        case 0.1..<36.5:
+        case 0.0..<36.5:
             return UIColor.red
         case 36.5...37.5:
             return UIColor.green
@@ -116,7 +116,7 @@ struct SensorModel {
         let babyTempRoundedString = String(format: "%0.1f", babyTempRoundedDouble!)
         let babyTempNumber = Double(babyTempRoundedString)!
         switch babyTempNumber {
-        case 0.1..<36.5:
+        case 0.0..<36.5:
             return "lowTemp"
         case 36.5...37.5:
             return "normalTemp"
@@ -130,6 +130,31 @@ struct SensorModel {
     var weightToKgString: String {
         let weightToKgDouble = Double(weight)! / 1000
         return String(format: "%.1f", weightToKgDouble) + " kg"
+    }
+    
+    var condition: String {
+        switch (babyTempDesc, pulseDesc) {
+        case ("Normal", "Normal"): //
+            return "Bubu sedang tidur nyenyak ya Bun."
+        case ("Normal", "Melambat"): //
+            return "Bunda, denyut jantung Bubu menurun nih, tolong dicek ya Bun!"
+        case ("Normal", "Meningkat"): //
+            return "Bunda, denyut jantung Bubu menignkat nih, tolong dicek ya Bun!"
+        case ("Menurun", "Normal"): //
+            return "Bunda, suhu badan Bubu menurun nih, tolong dicek ya Bun!"
+        case ("Menurun", "Melambat"): //
+            return "Bunda suhu badan dan denyut jantung Bubu menurun nih, segera hubungi dokter ya Bun!"
+        case ("Menurun", "Meningkat"): //
+            return "Bunda suhu badan Bubu menurun dan denyut jantungnya meningkat nih, segera hubungi dokter ya Bun!"
+        case ("Meningkat", "Normal"): //
+            return "Bunda, suhu badan Bubu meningkat nih, tolong dicek ya Bun!"
+        case ("Meningkat", "Melambat"): //
+            return "Bunda suhu badan bubu meningkat dan denyut jantungnya menurun nih, segera hubungi dokter ya Bun!"
+        case ("Meningkat", "Meningkat"): //
+            return "Bunda suhu badan dan denyut jantung Bubu meningkat nih, segera hubungi dokter ya Bun!"
+        default:
+            return "Error"
+        }
     }
     
     var date: String {
