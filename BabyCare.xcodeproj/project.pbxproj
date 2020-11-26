@@ -17,6 +17,7 @@
 		960B0B69256B554F000E40C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960B0B68256B554F000E40C3 /* Assets.xcassets */; };
 		960B0B6C256B554F000E40C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960B0B6A256B554F000E40C3 /* LaunchScreen.storyboard */; };
 		960B0B80256B5CE0000E40C3 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B7F256B5CE0000E40C3 /* OnboardingViewController.swift */; };
+		9633CCFA256FA76A00516B43 /* BabyTemp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9633CCF9256FA76A00516B43 /* BabyTemp.storyboard */; };
 		967063D8256B6275007F30B0 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967063D7256B6275007F30B0 /* Onboarding.storyboard */; };
 		9684E459256DFE4900A52E2B /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E458256DFE4900A52E2B /* SensorManager.swift */; };
 		9684E45C256DFE6F00A52E2B /* SensorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E45B256DFE6F00A52E2B /* SensorModel.swift */; };
@@ -38,6 +39,7 @@
 		960B0B6B256B554F000E40C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		960B0B6D256B554F000E40C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		960B0B7F256B5CE0000E40C3 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		9633CCF9256FA76A00516B43 /* BabyTemp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BabyTemp.storyboard; sourceTree = "<group>"; };
 		967063D7256B6275007F30B0 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 		9684E458256DFE4900A52E2B /* SensorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorManager.swift; sourceTree = "<group>"; };
 		9684E45B256DFE6F00A52E2B /* SensorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorModel.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				960B0B65256B554E000E40C3 /* Main.storyboard */,
 				967063D7256B6275007F30B0 /* Onboarding.storyboard */,
 				96ADB79D256F57C1004D98F7 /* IncubatorData.storyboard */,
+				9633CCF9256FA76A00516B43 /* BabyTemp.storyboard */,
 				91A93BF3256F55470040EB39 /* Tips.storyboard */,
 			);
 			path = View;
@@ -184,6 +187,7 @@
 				960B0B69256B554F000E40C3 /* Assets.xcassets in Resources */,
 				960B0B67256B554E000E40C3 /* Main.storyboard in Resources */,
 				967063D8256B6275007F30B0 /* Onboarding.storyboard in Resources */,
+				9633CCFA256FA76A00516B43 /* BabyTemp.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

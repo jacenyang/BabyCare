@@ -50,7 +50,7 @@ class OnboardingViewController: UIViewController {
             
             // Set up image
             imageView.contentMode = .scaleAspectFit
-            imageView.image = UIImage(named: "onboarding\(x+1)")
+            imageView.image = UIImage(named: "onboarding/\(x+1)")
             pageView.addSubview(imageView)
             
             // Set up guide

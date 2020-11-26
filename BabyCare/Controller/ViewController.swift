@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     }
     
     func setup() {
-        title = "Hai Bunda!"
+        title = "Hai, Bunda!"
         
         sensorManager.delegate = self
         sensorManager.fetchSensor()
