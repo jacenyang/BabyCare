@@ -36,11 +36,12 @@ class ViewController: UIViewController {
     
     func setup() {
         title = "Hai Bunda!"
-        bigView.layer.cornerRadius = 15
-        smallView.layer.cornerRadius = 15
         
         sensorManager.delegate = self
         sensorManager.fetchSensor()
+        
+        bigView.layer.cornerRadius = 15
+        smallView.layer.cornerRadius = 15
     }
     
     func animatedImages(for name: String) -> [UIImage] {
@@ -66,7 +67,7 @@ extension ViewController: SensorManagerDelegate {
         DispatchQueue.main.async {
             self.babyTempLabel.textColor = sensor.babyTempColor
             self.babyTempLabel.text = sensor.babyTempDesc
-            print(sensor.pulseString)
+            
             self.pulseLabel.textColor = sensor.pulseColor
             self.pulseLabel.text = sensor.pulseDesc
             
