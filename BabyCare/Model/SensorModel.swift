@@ -50,7 +50,7 @@ struct SensorModel {
         case 0..<170:
             return UIColor.red
         case 170...190:
-            return UIColor.green
+            return UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
         case 191..<300:
             return UIColor.red
         default:
@@ -103,7 +103,7 @@ struct SensorModel {
         case 0.0..<36.5:
             return UIColor.red
         case 36.5...37.5:
-            return UIColor.green
+            return UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
         case 37.6..<40:
             return UIColor.red
         default:
@@ -132,7 +132,7 @@ struct SensorModel {
         return String(format: "%.1f", weightToKgDouble) + " kg"
     }
     
-    var condition: String {
+    var conditionString: String {
         switch (babyTempDesc, pulseDesc) {
         case ("Normal", "Normal"): //
             return "Bubu sedang tidur nyenyak ya Bun."
@@ -154,6 +154,15 @@ struct SensorModel {
             return "Bunda suhu badan dan denyut jantung Bubu meningkat nih, segera hubungi dokter ya Bun!"
         default:
             return "Error"
+        }
+    }
+    
+    var conditionColor: UIColor {
+        if babyTempDesc == "Normal" && pulseDesc == "Normal" {
+            return UIColor.red
+        }
+        else {
+            return UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
         }
     }
     

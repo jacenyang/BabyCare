@@ -82,8 +82,8 @@ extension ViewController: SensorManagerDelegate {
             self.pulseImageView.image = self.babyTempImageView.animationImages?.first
             self.pulseImageView.startAnimating()
             
-            self.conditionLabel.textColor = UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
-            self.conditionLabel.text = sensor.condition
+            self.conditionLabel.textColor = sensor.conditionColor
+            self.conditionLabel.text = sensor.conditionString
         }
     }
     
