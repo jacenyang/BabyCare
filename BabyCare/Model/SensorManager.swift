@@ -51,13 +51,13 @@ struct SensorManager {
         do {
             
             let decodedData = try decoder.decode(SensorData.self, from: sensorData)
-            let isoDate = (decodedData.feeds.last?.created_at) ?? "0.0"
-            let cabinTemp = (decodedData.feeds.last?.field1) ?? "0.0"
-            let humidity = (decodedData.feeds.last?.field2) ?? "0.0"
-            let pulse = (decodedData.feeds.last?.field3) ?? "0.0"
-            let babyTemp = (decodedData.feeds.last?.field4 ) ?? "0.0"
-            let weight = (decodedData.feeds.last!.field5) ?? "0.0"
-            let sensor = SensorModel(isoDate: isoDate, cabinTemp: cabinTemp, humidity: humidity, pulse: pulse, babyTemp: babyTemp, weight: weight)
+            let created_at = (decodedData.feeds.last?.created_at)!
+            let field1 = (decodedData.feeds.last?.field1)!
+            let field2 = (decodedData.feeds.last?.field2)!
+            let field3 = (decodedData.feeds.last?.field3)!
+            let field4 = (decodedData.feeds.last?.field4)!
+            let field5 = (decodedData.feeds.last?.field5)!
+            let sensor = SensorModel(isoDate: created_at, cabinTemp: field1, humidity: field2, pulse: field3, babyTemp: field4, weight: field5)
             return sensor
             
         }
