@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,7 @@
 		967CFC2F257308F100395754 /* WeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967CFC2E257308F100395754 /* WeightTableViewCell.swift */; };
 		967CFC322573090400395754 /* HumidityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967CFC312573090400395754 /* HumidityViewController.swift */; };
 		967CFC352573091400395754 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967CFC342573091400395754 /* WeightViewController.swift */; };
+		967CFC3A25730D7000395754 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 967CFC3925730D7000395754 /* Charts */; };
 		9684E459256DFE4900A52E2B /* SensorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E458256DFE4900A52E2B /* SensorManager.swift */; };
 		9684E45C256DFE6F00A52E2B /* SensorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E45B256DFE6F00A52E2B /* SensorModel.swift */; };
 		9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9684E45E256DFE9100A52E2B /* SensorData.swift */; };
@@ -85,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				967CFC3A25730D7000395754 /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +158,8 @@
 				96ADB7A0256F57FD004D98F7 /* IncubatorDataViewController.swift */,
 				91A93BF6256F565B0040EB39 /* ListTipsVC.swift */,
 				91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */,
+				91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */,
+				9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */,
 				9658605425709552008842F2 /* BabyTempViewController.swift */,
 				96586057257096DB008842F2 /* BabyTempTableViewCell.swift */,
 				967CFC1E257303DC00395754 /* PulseViewController.swift */,
@@ -166,8 +170,6 @@
 				967CFC2B257308E400395754 /* HumidityTableViewCell.swift */,
 				967CFC342573091400395754 /* WeightViewController.swift */,
 				967CFC2E257308F100395754 /* WeightTableViewCell.swift */,
-				91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */,
-				9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +190,9 @@
 			dependencies = (
 			);
 			name = BabyCare;
+			packageProductDependencies = (
+				967CFC3925730D7000395754 /* Charts */,
+			);
 			productName = BabyCare;
 			productReference = 960B0B5C256B554E000E40C3 /* BabyCare.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 960B0B53256B554D000E40C3;
+			packageReferences = (
+				967CFC3825730D7000395754 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 960B0B5D256B554E000E40C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -475,6 +483,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		967CFC3825730D7000395754 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		967CFC3925730D7000395754 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 967CFC3825730D7000395754 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 960B0B54256B554D000E40C3 /* Project object */;
 }
