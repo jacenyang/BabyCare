@@ -60,6 +60,7 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3j-JU-e4d">
                                                 <rect key="frame" x="40" y="298" width="335" height="137"/>
@@ -77,6 +78,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="gOd-Va-pCM" appends="YES" id="lMw-QM-YQn"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbB-lK-TKQ">
                                                 <rect key="frame" x="40" y="443" width="335" height="137"/>
@@ -279,6 +284,11 @@
                         <segue destination="8Ga-i4-uz1" kind="presentation" id="c6m-eE-huS"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="gOd-Va-pCM">
+                    <connections>
+                        <segue destination="wbx-8k-BRm" kind="presentation" id="jbF-FG-niz"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="716.51785714285711"/>
         </scene>
@@ -289,6 +299,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySK-6Y-eXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2183" y="522"/>
+        </scene>
+        <!--tipsHipothermiaVC-->
+        <scene sceneID="eqS-Q3-pbb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="tipsHipothermiaVC" id="wbx-8k-BRm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EeS-jH-rd7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2227" y="682"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cbi-9i-XnM">

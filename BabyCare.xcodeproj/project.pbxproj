@@ -10,6 +10,7 @@
 		91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A93BF3256F55470040EB39 /* Tips.storyboard */; };
 		91A93BF7256F565B0040EB39 /* ListTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93BF6256F565B0040EB39 /* ListTipsVC.swift */; };
 		91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */; };
+		91A93C062571EA290040EB39 /* tipsHipothermiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */; };
 		960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B5F256B554E000E40C3 /* AppDelegate.swift */; };
 		960B0B62256B554E000E40C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B61256B554E000E40C3 /* SceneDelegate.swift */; };
 		960B0B64256B554E000E40C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B63256B554E000E40C3 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		91A93BF3256F55470040EB39 /* Tips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tips.storyboard; sourceTree = "<group>"; };
 		91A93BF6256F565B0040EB39 /* ListTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTipsVC.swift; sourceTree = "<group>"; };
 		91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDemamVC.swift; sourceTree = "<group>"; };
+		91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsHipothermiaVC.swift; sourceTree = "<group>"; };
 		960B0B5C256B554E000E40C3 /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960B0B5F256B554E000E40C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960B0B61256B554E000E40C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				96ADB7A0256F57FD004D98F7 /* IncubatorDataViewController.swift */,
 				91A93BF6256F565B0040EB39 /* ListTipsVC.swift */,
 				91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */,
+				91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				96ADB7A1256F57FD004D98F7 /* IncubatorDataViewController.swift in Sources */,
 				91A93BF7256F565B0040EB39 /* ListTipsVC.swift in Sources */,
 				9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */,
+				91A93C062571EA290040EB39 /* tipsHipothermiaVC.swift in Sources */,
 				91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */,
 				960B0B64256B554E000E40C3 /* ViewController.swift in Sources */,
 				960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */,
