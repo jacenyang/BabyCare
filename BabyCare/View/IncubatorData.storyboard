@@ -295,55 +295,55 @@
             </objects>
             <point key="canvasLocation" x="947.82608695652186" y="140.625"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--BabyTemp-->
         <scene sceneID="fsm-6g-HgC">
             <objects>
-                <viewControllerPlaceholder id="jFh-FR-QbO" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="BabyTemp" id="jFh-FR-QbO" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="l1Y-hY-zbQ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RKA-3S-jwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1538" y="-70"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Pulse-->
         <scene sceneID="xJA-Ya-AgA">
             <objects>
-                <viewControllerPlaceholder id="5eE-dy-4SN" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Pulse" id="5eE-dy-4SN" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="jnY-zu-JaV"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="evE-Bs-Fet" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="38"/>
+            <point key="canvasLocation" x="1516" y="34"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--CabinTemp-->
         <scene sceneID="66C-Uk-K0l">
             <objects>
-                <viewControllerPlaceholder id="Mis-Op-N8K" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="CabinTemp" id="Mis-Op-N8K" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="Uz6-34-x2V"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ndS-QA-wD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="141"/>
+            <point key="canvasLocation" x="1540" y="141"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Humidity-->
         <scene sceneID="QmK-ul-4B1">
             <objects>
-                <viewControllerPlaceholder id="1K4-9P-Lvr" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Humidity" id="1K4-9P-Lvr" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="olq-U4-NjZ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jtr-q5-t0d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="248"/>
+            <point key="canvasLocation" x="1531" y="252"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Weight-->
         <scene sceneID="2wG-l5-1u0">
             <objects>
-                <viewControllerPlaceholder id="wGR-lm-gvT" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Weight" id="wGR-lm-gvT" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="x8q-aW-kgl"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deH-LJ-HxA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="354"/>
+            <point key="canvasLocation" x="1522" y="359"/>
         </scene>
     </scenes>
     <resources>

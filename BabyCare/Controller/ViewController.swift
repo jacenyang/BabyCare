@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        sensorManager.delegate = self
+        sensorManager.fetchSensor()
         setup()
     }
     
@@ -36,10 +38,6 @@ class ViewController: UIViewController {
     
     func setup() {
         title = "Hai, Bunda!"
-        
-        sensorManager.delegate = self
-        sensorManager.fetchSensor()
-        
         bigView.layer.cornerRadius = 15
         smallView.layer.cornerRadius = 15
     }
