@@ -48,7 +48,7 @@ class TipsDemamVC: UIViewController {
         label7.text = "Demam pada bayi biasanya terkait dengan infeksi akibat penyakit berikut:\n1. Infeksi pada saluran pernafasan atas. \n2. Pneumonia. \n3. Infeksi telinga. \n4. Flu. \n5. Pilek. \n6. Radang tenggorokan. \n7. Infeksi saluran kencing. \n8. Meningitis"
         label7.preferredMaxLayoutWidth = 322
         
-        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: label7.bottomAnchor).isActive = true
+//        scrollView.contentLayoutGuide.bottomAnchor.constraint(equalTo: label7.bottomAnchor).isActive = true
 
 
     }

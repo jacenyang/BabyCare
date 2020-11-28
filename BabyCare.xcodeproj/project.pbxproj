@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */; };
 		91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A93BF3256F55470040EB39 /* Tips.storyboard */; };
 		91A93BF7256F565B0040EB39 /* ListTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93BF6256F565B0040EB39 /* ListTipsVC.swift */; };
 		91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsBradikardiaVC.swift; sourceTree = "<group>"; };
 		91A93BF3256F55470040EB39 /* Tips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tips.storyboard; sourceTree = "<group>"; };
 		91A93BF6256F565B0040EB39 /* ListTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTipsVC.swift; sourceTree = "<group>"; };
 		91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDemamVC.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				91A93BF6256F565B0040EB39 /* ListTipsVC.swift */,
 				91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */,
 				91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */,
+				9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */,
 				9684E459256DFE4900A52E2B /* SensorManager.swift in Sources */,
 				9684E45C256DFE6F00A52E2B /* SensorModel.swift in Sources */,
+				9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */,
 				960B0B62256B554E000E40C3 /* SceneDelegate.swift in Sources */,
 				960B0B80256B5CE0000E40C3 /* OnboardingViewController.swift in Sources */,
 			);
