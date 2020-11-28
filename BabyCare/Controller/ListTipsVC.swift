@@ -51,6 +51,7 @@ class ListTipsVC: UIViewController {
         super.viewDidLoad()
         
         title = "Tips"
+        
         navigationController?.navigationBar.prefersLargeTitles = true
         
         demam()
