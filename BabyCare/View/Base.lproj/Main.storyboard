@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Lm-8Y-8a7">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1229"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="1177"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-To-IM7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
@@ -40,6 +40,9 @@
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="FUR-Rf-cUN" appends="YES" id="n0t-2B-yEQ"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORY-hP-h1R">
                                                 <rect key="frame" x="40" y="153" width="335" height="137"/>
@@ -271,9 +274,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YMI-hZ-24w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="uIB-pC-KQG">
+                <tapGestureRecognizer id="FUR-Rf-cUN">
                     <connections>
-                        <segue destination="8Ga-i4-uz1" kind="presentation" id="j8J-QG-G2F"/>
+                        <segue destination="8Ga-i4-uz1" kind="presentation" id="c6m-eE-huS"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
