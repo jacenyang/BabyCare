@@ -123,6 +123,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="yAn-Vq-M3m" appends="YES" id="3l0-1L-NfW"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMg-O5-26S">
                                                 <rect key="frame" x="40" y="733" width="335" height="137"/>
@@ -306,6 +310,11 @@
                         <segue destination="zmx-gN-8x4" kind="presentation" id="FhN-R4-PKk"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="yAn-Vq-M3m">
+                    <connections>
+                        <segue destination="6W6-GT-BhK" kind="presentation" id="OJm-qH-lMU"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="716.51785714285711"/>
         </scene>
@@ -315,7 +324,7 @@
                 <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsDemamVC" id="8Ga-i4-uz1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySK-6Y-eXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2183" y="522"/>
+            <point key="canvasLocation" x="2118" y="404"/>
         </scene>
         <!--tipsHipothermiaVC-->
         <scene sceneID="eqS-Q3-pbb">
@@ -323,7 +332,7 @@
                 <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="tipsHipothermiaVC" id="wbx-8k-BRm" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeS-jH-rd7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2227" y="682"/>
+            <point key="canvasLocation" x="2136" y="593"/>
         </scene>
         <!--TipsBradikardiaVC-->
         <scene sceneID="TZu-po-Zrb">
@@ -331,7 +340,7 @@
                 <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBradikardiaVC" id="ce9-3N-QVg" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6V-5d-yg0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2219" y="760"/>
+            <point key="canvasLocation" x="2133" y="498"/>
         </scene>
         <!--TipsTakikardiaVC-->
         <scene sceneID="cJ9-Dx-QDT">
@@ -339,7 +348,15 @@
                 <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTakikardiaVC" id="zmx-gN-8x4" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nq7-Xk-WKZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2244" y="862"/>
+            <point key="canvasLocation" x="2128" y="687"/>
+        </scene>
+        <!--TipsBeratBadanRendahVC-->
+        <scene sceneID="WW5-bR-ohu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBeratBadanRendahVC" id="6W6-GT-BhK" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vhw-YW-l6L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2167" y="783"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cbi-9i-XnM">
