@@ -102,6 +102,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="yup-CT-AsF" appends="YES" id="alX-wq-eho"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHO-vL-ag7">
                                                 <rect key="frame" x="40" y="588" width="335" height="137"/>
@@ -297,6 +301,11 @@
                         <segue destination="ce9-3N-QVg" kind="presentation" id="YGM-ra-Nc2"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="yup-CT-AsF">
+                    <connections>
+                        <segue destination="zmx-gN-8x4" kind="presentation" id="FhN-R4-PKk"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="716.51785714285711"/>
         </scene>
@@ -323,6 +332,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6V-5d-yg0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2219" y="760"/>
+        </scene>
+        <!--TipsTakikardiaVC-->
+        <scene sceneID="cJ9-Dx-QDT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTakikardiaVC" id="zmx-gN-8x4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nq7-Xk-WKZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2244" y="862"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cbi-9i-XnM">
