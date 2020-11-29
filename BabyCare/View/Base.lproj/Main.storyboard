@@ -144,6 +144,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ws0-ly-FWu" appends="YES" id="EZ1-ml-h8q"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gi3-X0-MZX">
                                                 <rect key="frame" x="40" y="878" width="335" height="137"/>
@@ -161,6 +165,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="TN8-xd-w3I" appends="YES" id="C2t-Hs-h0N"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sf-aV-CYh">
                                                 <rect key="frame" x="40" y="1023" width="335" height="137"/>
@@ -315,6 +323,16 @@
                         <segue destination="6W6-GT-BhK" kind="presentation" id="OJm-qH-lMU"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="TN8-xd-w3I">
+                    <connections>
+                        <segue destination="ohJ-S9-9G6" kind="presentation" id="88x-zg-dos"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ws0-ly-FWu">
+                    <connections>
+                        <segue destination="m5X-w8-Kwq" kind="presentation" id="uCq-06-M7b"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="716.51785714285711"/>
         </scene>
@@ -357,6 +375,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhw-YW-l6L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2167" y="783"/>
+        </scene>
+        <!--TipsHumidityTinggiVC-->
+        <scene sceneID="g4U-kk-Ubf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityTinggiVC" id="m5X-w8-Kwq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tu7-ao-xBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2151" y="873"/>
+        </scene>
+        <!--TipsHumidityRendahVC-->
+        <scene sceneID="Ny8-Yb-xvA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityRendahVC" id="ohJ-S9-9G6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YnA-y4-Oxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2156" y="972"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cbi-9i-XnM">
