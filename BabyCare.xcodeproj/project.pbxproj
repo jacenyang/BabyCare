@@ -16,6 +16,8 @@
 		91D5928F2573560100680738 /* TipsBeratBadanRendahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5928E2573560100680738 /* TipsBeratBadanRendahVC.swift */; };
 		91D59292257358E900680738 /* TipsHumidityRendahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D59291257358E900680738 /* TipsHumidityRendahVC.swift */; };
 		91D5929525735B0300680738 /* TipsHumidityTinggiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5929425735B0300680738 /* TipsHumidityTinggiVC.swift */; };
+		91D5929825735DFB00680738 /* TipsTempKabTinggiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5929725735DFB00680738 /* TipsTempKabTinggiVC.swift */; };
+		91D5929B25735E2300680738 /* TipsTempKabRendahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5929A25735E2300680738 /* TipsTempKabRendahVC.swift */; };
 		960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B5F256B554E000E40C3 /* AppDelegate.swift */; };
 		960B0B62256B554E000E40C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B61256B554E000E40C3 /* SceneDelegate.swift */; };
 		960B0B64256B554E000E40C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B63256B554E000E40C3 /* ViewController.swift */; };
@@ -57,6 +59,8 @@
 		91D5928E2573560100680738 /* TipsBeratBadanRendahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsBeratBadanRendahVC.swift; sourceTree = "<group>"; };
 		91D59291257358E900680738 /* TipsHumidityRendahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsHumidityRendahVC.swift; sourceTree = "<group>"; };
 		91D5929425735B0300680738 /* TipsHumidityTinggiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsHumidityTinggiVC.swift; sourceTree = "<group>"; };
+		91D5929725735DFB00680738 /* TipsTempKabTinggiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTempKabTinggiVC.swift; sourceTree = "<group>"; };
+		91D5929A25735E2300680738 /* TipsTempKabRendahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTempKabRendahVC.swift; sourceTree = "<group>"; };
 		960B0B5C256B554E000E40C3 /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960B0B5F256B554E000E40C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960B0B61256B554E000E40C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				91D5928E2573560100680738 /* TipsBeratBadanRendahVC.swift */,
 				91D59291257358E900680738 /* TipsHumidityRendahVC.swift */,
 				91D5929425735B0300680738 /* TipsHumidityTinggiVC.swift */,
+				91D5929725735DFB00680738 /* TipsTempKabTinggiVC.swift */,
+				91D5929A25735E2300680738 /* TipsTempKabRendahVC.swift */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -283,11 +289,13 @@
 				967CFC2C257308E400395754 /* HumidityTableViewCell.swift in Sources */,
 				9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */,
 				967CFC352573091400395754 /* WeightViewController.swift in Sources */,
+				91D5929825735DFB00680738 /* TipsTempKabTinggiVC.swift in Sources */,
 				91D5929525735B0300680738 /* TipsHumidityTinggiVC.swift in Sources */,
 				9658605525709552008842F2 /* BabyTempViewController.swift in Sources */,
 				91A93C062571EA290040EB39 /* tipsHipothermiaVC.swift in Sources */,
 				91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */,
 				96586058257096DB008842F2 /* BabyTempTableViewCell.swift in Sources */,
+				91D5929B25735E2300680738 /* TipsTempKabRendahVC.swift in Sources */,
 				960B0B64256B554E000E40C3 /* ViewController.swift in Sources */,
 				960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */,
 				967CFC322573090400395754 /* HumidityViewController.swift in Sources */,

@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Lm-8Y-8a7">
-                                <rect key="frame" x="0.0" y="140" width="414" height="1177"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1229"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-To-IM7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
@@ -186,6 +186,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Bvf-M7-zed" appends="YES" id="91H-Ui-cSL"/>
+                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLf-79-Z87">
                                                 <rect key="frame" x="40" y="1168" width="335" height="137"/>
@@ -203,6 +207,10 @@
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="ped-a5-HKI" appends="YES" id="J1E-z3-KUQ"/>
+                                                </connections>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.85905748609999999" green="0.925526917" blue="0.92157012220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -333,6 +341,16 @@
                         <segue destination="m5X-w8-Kwq" kind="presentation" id="uCq-06-M7b"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="Bvf-M7-zed">
+                    <connections>
+                        <segue destination="Rxe-gz-oF9" kind="presentation" id="MIC-uF-eay"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ped-a5-HKI">
+                    <connections>
+                        <segue destination="EVU-5T-wms" kind="presentation" id="MzV-rU-1dc"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="716.51785714285711"/>
         </scene>
@@ -391,6 +409,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YnA-y4-Oxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2156" y="972"/>
+        </scene>
+        <!--TipsTempKabTinggiVC-->
+        <scene sceneID="roX-ON-ZIW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabTinggiVC" id="Rxe-gz-oF9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wgR-5c-quY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2149" y="1065"/>
+        </scene>
+        <!--TipsTempKabRendahVC-->
+        <scene sceneID="x8d-5g-p6r">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabRendahVC" id="EVU-5T-wms" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6PK-5O-NqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2157" y="1154"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cbi-9i-XnM">
