@@ -159,10 +159,10 @@ struct SensorModel {
     
     var conditionColor: UIColor {
         if babyTempDesc == "Normal" && pulseDesc == "Normal" {
-            return UIColor.red
+            return UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
         }
         else {
-            return UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
+            return UIColor.red
         }
     }
     

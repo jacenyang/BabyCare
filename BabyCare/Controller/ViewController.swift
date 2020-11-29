@@ -65,17 +65,23 @@ extension ViewController: SensorManagerDelegate {
         DispatchQueue.main.async {
             self.babyTempLabel.textColor = sensor.babyTempColor
             self.babyTempLabel.text = sensor.babyTempDesc
+//            self.babyTempLabel.textColor = UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
+//            self.babyTempLabel.text = "Normal"
             
             self.pulseLabel.textColor = sensor.pulseColor
             self.pulseLabel.text = sensor.pulseDesc
+//            self.pulseLabel.textColor = UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
+//            self.pulseLabel.text = "Normal"
             
             self.babyTempImageView.animationImages = self.animatedImages(for: sensor.babyTempAnimation)
+//            self.babyTempImageView.animationImages = self.animatedImages(for: "normalTemp")
             self.babyTempImageView.animationDuration = 1
             self.babyTempImageView.animationRepeatCount = 0
             self.babyTempImageView.image = self.babyTempImageView.animationImages?.first
             self.babyTempImageView.startAnimating()
             
             self.pulseImageView.animationImages = self.animatedImages(for: sensor.pulseAnimation)
+//            self.pulseImageView.animationImages = self.animatedImages(for: "normalPulse")
             self.pulseImageView.animationDuration = 1
             self.pulseImageView.animationRepeatCount = 0
             self.pulseImageView.image = self.babyTempImageView.animationImages?.first
@@ -83,6 +89,8 @@ extension ViewController: SensorManagerDelegate {
             
             self.conditionLabel.textColor = sensor.conditionColor
             self.conditionLabel.text = sensor.conditionString
+//            self.conditionLabel.textColor = UIColor(red: 56/255, green: 87/255, blue: 81/255, alpha: 1.0)
+//            self.conditionLabel.text = "Bubu sedang tidur nyenyak ya Bun."
         }
     }
     

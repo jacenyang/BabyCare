@@ -490,11 +490,11 @@
             </objects>
             <point key="canvasLocation" x="-177" y="113"/>
         </scene>
-        <!--Hai, Bunda-->
+        <!--Hai, Bunda!-->
         <scene sceneID="e21-1n-2mY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zEq-zZ-skE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Hai, Bunda" image="heart.fill" catalog="system" id="8YW-pq-faM"/>
+                    <tabBarItem key="tabBarItem" title="Hai, Bunda!" image="heart.fill" catalog="system" id="8YW-pq-faM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="riY-Hb-3HI">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
