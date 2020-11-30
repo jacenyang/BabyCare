@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */; };
+		919818812573454700D75236 /* TipsTakikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919818802573454700D75236 /* TipsTakikardiaVC.swift */; };
 		91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A93BF3256F55470040EB39 /* Tips.storyboard */; };
 		91A93BF7256F565B0040EB39 /* ListTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93BF6256F565B0040EB39 /* ListTipsVC.swift */; };
 		91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */; };
 		91A93C062571EA290040EB39 /* tipsHipothermiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */; };
+		91D5928F2573560100680738 /* TipsBeratBadanRendahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5928E2573560100680738 /* TipsBeratBadanRendahVC.swift */; };
+		91D59292257358E900680738 /* TipsHumidityRendahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D59291257358E900680738 /* TipsHumidityRendahVC.swift */; };
+		91D5929525735B0300680738 /* TipsHumidityTinggiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5929425735B0300680738 /* TipsHumidityTinggiVC.swift */; };
+		91D5929825735DFB00680738 /* TipsTempKabTinggiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5929725735DFB00680738 /* TipsTempKabTinggiVC.swift */; };
+		91D5929B25735E2300680738 /* TipsTempKabRendahVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5929A25735E2300680738 /* TipsTempKabRendahVC.swift */; };
 		960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B5F256B554E000E40C3 /* AppDelegate.swift */; };
 		960B0B62256B554E000E40C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B61256B554E000E40C3 /* SceneDelegate.swift */; };
 		960B0B64256B554E000E40C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960B0B63256B554E000E40C3 /* ViewController.swift */; };
@@ -45,10 +51,16 @@
 
 /* Begin PBXFileReference section */
 		9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsBradikardiaVC.swift; sourceTree = "<group>"; };
+		919818802573454700D75236 /* TipsTakikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTakikardiaVC.swift; sourceTree = "<group>"; };
 		91A93BF3256F55470040EB39 /* Tips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tips.storyboard; sourceTree = "<group>"; };
 		91A93BF6256F565B0040EB39 /* ListTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTipsVC.swift; sourceTree = "<group>"; };
 		91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDemamVC.swift; sourceTree = "<group>"; };
 		91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsHipothermiaVC.swift; sourceTree = "<group>"; };
+		91D5928E2573560100680738 /* TipsBeratBadanRendahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsBeratBadanRendahVC.swift; sourceTree = "<group>"; };
+		91D59291257358E900680738 /* TipsHumidityRendahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsHumidityRendahVC.swift; sourceTree = "<group>"; };
+		91D5929425735B0300680738 /* TipsHumidityTinggiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsHumidityTinggiVC.swift; sourceTree = "<group>"; };
+		91D5929725735DFB00680738 /* TipsTempKabTinggiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTempKabTinggiVC.swift; sourceTree = "<group>"; };
+		91D5929A25735E2300680738 /* TipsTempKabRendahVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTempKabRendahVC.swift; sourceTree = "<group>"; };
 		960B0B5C256B554E000E40C3 /* BabyCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960B0B5F256B554E000E40C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960B0B61256B554E000E40C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9198187E2573440C00D75236 /* tips */ = {
+			isa = PBXGroup;
+			children = (
+				91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */,
+				91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */,
+				9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */,
+				919818802573454700D75236 /* TipsTakikardiaVC.swift */,
+				91D5928E2573560100680738 /* TipsBeratBadanRendahVC.swift */,
+				91D59291257358E900680738 /* TipsHumidityRendahVC.swift */,
+				91D5929425735B0300680738 /* TipsHumidityTinggiVC.swift */,
+				91D5929725735DFB00680738 /* TipsTempKabTinggiVC.swift */,
+				91D5929A25735E2300680738 /* TipsTempKabRendahVC.swift */,
+			);
+			path = tips;
+			sourceTree = "<group>";
+		};
 		960B0B53256B554D000E40C3 = {
 			isa = PBXGroup;
 			children = (
@@ -153,13 +181,11 @@
 		960B0B77256B55C5000E40C3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9198187E2573440C00D75236 /* tips */,
 				960B0B63256B554E000E40C3 /* ViewController.swift */,
 				960B0B7F256B5CE0000E40C3 /* OnboardingViewController.swift */,
 				96ADB7A0256F57FD004D98F7 /* IncubatorDataViewController.swift */,
 				91A93BF6256F565B0040EB39 /* ListTipsVC.swift */,
-				91A93BF9256F5C7F0040EB39 /* TipsDemamVC.swift */,
-				91A93C052571EA290040EB39 /* tipsHipothermiaVC.swift */,
-				9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */,
 				9658605425709552008842F2 /* BabyTempViewController.swift */,
 				96586057257096DB008842F2 /* BabyTempTableViewCell.swift */,
 				967CFC1E257303DC00395754 /* PulseViewController.swift */,
@@ -263,19 +289,25 @@
 				967CFC2C257308E400395754 /* HumidityTableViewCell.swift in Sources */,
 				9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */,
 				967CFC352573091400395754 /* WeightViewController.swift in Sources */,
+				91D5929825735DFB00680738 /* TipsTempKabTinggiVC.swift in Sources */,
+				91D5929525735B0300680738 /* TipsHumidityTinggiVC.swift in Sources */,
 				9658605525709552008842F2 /* BabyTempViewController.swift in Sources */,
 				91A93C062571EA290040EB39 /* tipsHipothermiaVC.swift in Sources */,
 				91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */,
 				96586058257096DB008842F2 /* BabyTempTableViewCell.swift in Sources */,
+				91D5929B25735E2300680738 /* TipsTempKabRendahVC.swift in Sources */,
 				960B0B64256B554E000E40C3 /* ViewController.swift in Sources */,
 				960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */,
 				967CFC322573090400395754 /* HumidityViewController.swift in Sources */,
 				9684E459256DFE4900A52E2B /* SensorManager.swift in Sources */,
+				919818812573454700D75236 /* TipsTakikardiaVC.swift in Sources */,
+				91D5928F2573560100680738 /* TipsBeratBadanRendahVC.swift in Sources */,
 				967CFC22257305A400395754 /* PulseTableViewCell.swift in Sources */,
 				967CFC2F257308F100395754 /* WeightTableViewCell.swift in Sources */,
 				9684E45C256DFE6F00A52E2B /* SensorModel.swift in Sources */,
 				9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */,
 				960B0B62256B554E000E40C3 /* SceneDelegate.swift in Sources */,
+				91D59292257358E900680738 /* TipsHumidityRendahVC.swift in Sources */,
 				960B0B80256B5CE0000E40C3 /* OnboardingViewController.swift in Sources */,
 				967CFC29257306E400395754 /* CabinTempTableViewCell.swift in Sources */,
 				967CFC26257306CD00395754 /* CabinTempViewController.swift in Sources */,
@@ -427,7 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R8X64JCXMP;
+				DEVELOPMENT_TEAM = V9WZSQKJ6P;
 				INFOPLIST_FILE = BabyCare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,7 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R8X64JCXMP;
+				DEVELOPMENT_TEAM = V9WZSQKJ6P;
 				INFOPLIST_FILE = BabyCare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
