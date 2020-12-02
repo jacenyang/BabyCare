@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C685BA8B479509E05DB8267 /* Pods_BabyCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FE81D7843298C1C1DA871B /* Pods_BabyCare.framework */; };
+		54E8D05F257760A6001B3A40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E8D05E257760A6001B3A40 /* GoogleService-Info.plist */; };
 		9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */; };
 		919818812573454700D75236 /* TipsTakikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919818802573454700D75236 /* TipsTakikardiaVC.swift */; };
 		91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A93BF3256F55470040EB39 /* Tips.storyboard */; };
@@ -50,6 +52,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		542148E42577324C006225F1 /* BabyCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BabyCare.entitlements; sourceTree = "<group>"; };
+		54E8D05E257760A6001B3A40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DA89386E75F0D3B69BBE73F /* Pods-BabyCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.debug.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.debug.xcconfig"; sourceTree = "<group>"; };
 		9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsBradikardiaVC.swift; sourceTree = "<group>"; };
 		919818802573454700D75236 /* TipsTakikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTakikardiaVC.swift; sourceTree = "<group>"; };
 		91A93BF3256F55470040EB39 /* Tips.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tips.storyboard; sourceTree = "<group>"; };
@@ -91,6 +96,8 @@
 		9684E45E256DFE9100A52E2B /* SensorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorData.swift; sourceTree = "<group>"; };
 		96ADB79D256F57C1004D98F7 /* IncubatorData.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IncubatorData.storyboard; sourceTree = "<group>"; };
 		96ADB7A0256F57FD004D98F7 /* IncubatorDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncubatorDataViewController.swift; sourceTree = "<group>"; };
+		D8FE81D7843298C1C1DA871B /* Pods_BabyCare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabyCare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDC848FEC7B0B12F50EE4B0 /* Pods-BabyCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.release.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +106,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				967CFC3A25730D7000395754 /* Charts in Frameworks */,
+				0C685BA8B479509E05DB8267 /* Pods_BabyCare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47A31EE1D4627B2379B5E6DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DA89386E75F0D3B69BBE73F /* Pods-BabyCare.debug.xcconfig */,
+				DDDC848FEC7B0B12F50EE4B0 /* Pods-BabyCare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9198187E2573440C00D75236 /* tips */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,11 +138,21 @@
 			path = tips;
 			sourceTree = "<group>";
 		};
+		91D4325AF02070E527CA85A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8FE81D7843298C1C1DA871B /* Pods_BabyCare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		960B0B53256B554D000E40C3 = {
 			isa = PBXGroup;
 			children = (
 				960B0B5E256B554E000E40C3 /* BabyCare */,
 				960B0B5D256B554E000E40C3 /* Products */,
+				47A31EE1D4627B2379B5E6DD /* Pods */,
+				91D4325AF02070E527CA85A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,7 @@
 		960B0B5E256B554E000E40C3 /* BabyCare */ = {
 			isa = PBXGroup;
 			children = (
+				542148E42577324C006225F1 /* BabyCare.entitlements */,
 				960B0B75256B55AC000E40C3 /* Model */,
 				960B0B76256B55BE000E40C3 /* View */,
 				960B0B77256B55C5000E40C3 /* Controller */,
@@ -147,6 +175,7 @@
 				960B0B61256B554E000E40C3 /* SceneDelegate.swift */,
 				960B0B68256B554F000E40C3 /* Assets.xcassets */,
 				960B0B6A256B554F000E40C3 /* LaunchScreen.storyboard */,
+				54E8D05E257760A6001B3A40 /* GoogleService-Info.plist */,
 				960B0B6D256B554F000E40C3 /* Info.plist */,
 			);
 			path = BabyCare;
@@ -207,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 960B0B70256B554F000E40C3 /* Build configuration list for PBXNativeTarget "BabyCare" */;
 			buildPhases = (
+				65100E7F99534306C7B7B6CF /* [CP] Check Pods Manifest.lock */,
 				960B0B58256B554D000E40C3 /* Sources */,
 				960B0B59256B554D000E40C3 /* Frameworks */,
 				960B0B5A256B554D000E40C3 /* Resources */,
+				5F5F285A97B6E1FAE8A135A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -268,6 +299,7 @@
 				967CFC1C257303BA00395754 /* Weight.storyboard in Resources */,
 				96ADB79E256F57C1004D98F7 /* IncubatorData.storyboard in Resources */,
 				91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */,
+				54E8D05F257760A6001B3A40 /* GoogleService-Info.plist in Resources */,
 				960B0B69256B554F000E40C3 /* Assets.xcassets in Resources */,
 				9658605E2570BA35008842F2 /* CabinTemp.storyboard in Resources */,
 				960B0B67256B554E000E40C3 /* Main.storyboard in Resources */,
@@ -278,6 +310,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F5F285A97B6E1FAE8A135A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BabyCare/Pods-BabyCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65100E7F99534306C7B7B6CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabyCare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		960B0B58256B554D000E40C3 /* Sources */ = {
@@ -455,11 +529,13 @@
 		};
 		960B0B71256B554F000E40C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA89386E75F0D3B69BBE73F /* Pods-BabyCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BabyCare/BabyCare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9WZSQKJ6P;
+				DEVELOPMENT_TEAM = B3Z79P8J6A;
 				INFOPLIST_FILE = BabyCare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,7 +543,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.temperatur.BabyCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temperatur.BabyCareNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -476,11 +552,13 @@
 		};
 		960B0B72256B554F000E40C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDDC848FEC7B0B12F50EE4B0 /* Pods-BabyCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BabyCare/BabyCare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = V9WZSQKJ6P;
+				DEVELOPMENT_TEAM = B3Z79P8J6A;
 				INFOPLIST_FILE = BabyCare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,7 +566,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.temperatur.BabyCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.temperatur.BabyCareNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

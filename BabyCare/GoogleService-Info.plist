@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>760239942471-51p2fa4tst109dk962520j1tqgldh9ve.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.760239942471-51p2fa4tst109dk962520j1tqgldh9ve</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCFaG9znngljIgB7PxsGTMRvZPE3W45bsU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>760239942471</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.temperatur.BabyCareNew</string>
+	<key>PROJECT_ID</key>
+	<string>baby-care-6f6b2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>baby-care-6f6b2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:760239942471:ios:4c4a92d431dc21a3977a62</string>
+	<key>DATABASE_URL</key>
+	<string>https://baby-care-6f6b2.firebaseio.com</string>
+</dict>
+</plist>
