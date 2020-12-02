@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var bigView: UIView!
     @IBOutlet weak var smallView: UIView!
+    @IBOutlet weak var smallViewButton: UIButton!
     @IBOutlet weak var babyTempImageView: UIImageView!
     @IBOutlet weak var pulseImageView: UIImageView!
     @IBOutlet weak var babyTempLabel: UILabel!
@@ -40,6 +41,7 @@ class ViewController: UIViewController {
         title = "Hai, Bunda!"
         bigView.layer.cornerRadius = 15
         smallView.layer.cornerRadius = 15
+        smallViewButton.layer.cornerRadius = 15
     }
     
     func animatedImages(for name: String) -> [UIImage] {

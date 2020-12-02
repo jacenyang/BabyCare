@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZHV-iB-Ket">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZHV-iB-Ket">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Lm-8Y-8a7">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1229"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="1177"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-To-IM7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
@@ -35,17 +35,30 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmR-C9-xLb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="8Ga-i4-uz1" kind="show" id="gke-rq-WPB"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
+                                                    <constraint firstItem="UmR-C9-xLb" firstAttribute="top" secondItem="hui-EW-z74" secondAttribute="top" id="69N-Dq-7rA"/>
+                                                    <constraint firstAttribute="bottom" secondItem="UmR-C9-xLb" secondAttribute="bottom" id="Gbb-y1-vhg"/>
                                                     <constraint firstItem="Iqs-bG-mba" firstAttribute="leading" secondItem="pZa-NL-VJo" secondAttribute="trailing" constant="8" id="JVN-LC-hjf"/>
                                                     <constraint firstAttribute="trailing" secondItem="Iqs-bG-mba" secondAttribute="trailing" id="U3N-ry-9Kt"/>
                                                     <constraint firstItem="Iqs-bG-mba" firstAttribute="leading" secondItem="hui-EW-z74" secondAttribute="leading" constant="207" id="VAa-aG-VIO"/>
                                                     <constraint firstAttribute="bottom" secondItem="pZa-NL-VJo" secondAttribute="bottom" constant="40" id="WFn-Nk-Qfn"/>
                                                     <constraint firstItem="Iqs-bG-mba" firstAttribute="top" secondItem="hui-EW-z74" secondAttribute="top" id="aU1-3S-Kak"/>
+                                                    <constraint firstAttribute="trailing" secondItem="UmR-C9-xLb" secondAttribute="trailing" id="f3T-0p-Qcq"/>
                                                     <constraint firstItem="pZa-NL-VJo" firstAttribute="top" secondItem="hui-EW-z74" secondAttribute="top" constant="40" id="hCm-1R-KH9"/>
                                                     <constraint firstItem="pZa-NL-VJo" firstAttribute="leading" secondItem="hui-EW-z74" secondAttribute="leading" constant="8" id="r8E-Nv-1C9"/>
+                                                    <constraint firstItem="UmR-C9-xLb" firstAttribute="leading" secondItem="hui-EW-z74" secondAttribute="leading" id="shb-II-G2a"/>
                                                     <constraint firstAttribute="bottom" secondItem="Iqs-bG-mba" secondAttribute="bottom" id="tCk-7C-q3m"/>
                                                 </constraints>
                                                 <connections>
@@ -64,6 +77,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-NY-mrg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="FEr-Rm-YWx" kind="show" id="BhP-40-1nl"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <gestureRecognizers/>
@@ -93,6 +116,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDb-o5-SMg">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="LRr-JU-fI4" kind="show" id="TBm-Zc-6Ya"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <gestureRecognizers/>
@@ -122,6 +155,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ags-Rd-9h9">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="hgd-Xn-8gB" kind="show" id="Tg3-XQ-DbS"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <gestureRecognizers/>
@@ -151,6 +194,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ov0-SI-nVX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="j0D-yW-wzx" kind="show" id="0xf-ku-2xu"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <gestureRecognizers/>
@@ -180,6 +233,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmZ-C2-UzK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="W6Z-QU-0wn" kind="show" id="xSA-XK-KN0"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <gestureRecognizers/>
@@ -209,6 +272,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x81-md-CoT">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="jBl-50-Itt" kind="show" id="6UR-na-oUG"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <gestureRecognizers/>
@@ -238,6 +311,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0d-P0-Oko">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="jaP-ZF-bsd" kind="show" id="L1K-Pg-MTv"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <gestureRecognizers/>
@@ -267,6 +350,16 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haH-tC-zvs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="137"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <state key="highlighted" backgroundImage="Button Hold">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="Hsn-Tv-Olu" kind="show" id="4Lk-HB-0t9"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <gestureRecognizers/>
@@ -348,12 +441,15 @@
                     <navigationItem key="navigationItem" id="mkH-0c-UCf"/>
                     <size key="freeformSize" width="414" height="1400"/>
                     <connections>
+                        <outlet property="tips1Button" destination="UmR-C9-xLb" id="w6b-sq-g5I"/>
                         <outlet property="tips1Image" destination="Iqs-bG-mba" id="QsY-7y-6Ix"/>
                         <outlet property="tips1Label" destination="pZa-NL-VJo" id="N7b-ov-mgM"/>
                         <outlet property="tips1VIew" destination="hui-EW-z74" id="kCk-vD-tYc"/>
+                        <outlet property="tips2Button" destination="ffc-NY-mrg" id="2TW-Q1-2At"/>
                         <outlet property="tips2Image" destination="3sr-wI-Zzv" id="jQs-wR-n1P"/>
                         <outlet property="tips2Label" destination="mpL-Nz-mCV" id="Vjl-jo-b0W"/>
                         <outlet property="tips2View" destination="ORY-hP-h1R" id="YdE-Vn-5ib"/>
+                        <outlet property="tips3Button" destination="IDb-o5-SMg" id="Dx1-e5-Mwc"/>
                         <outlet property="tips3Image" destination="Qek-G1-PyT" id="DG0-UJ-yGE"/>
                         <outlet property="tips3Label" destination="ebt-tk-6lo" id="817-um-0fF"/>
                         <outlet property="tips3View" destination="D3j-JU-e4d" id="idA-Rh-175"/>
@@ -363,18 +459,24 @@
                         <outlet property="tips5Image" destination="tkR-pa-bkb" id="Iip-CV-wv1"/>
                         <outlet property="tips5Label" destination="NUw-aX-Puc" id="Aiz-tC-NZ5"/>
                         <outlet property="tips5View" destination="JHO-vL-ag7" id="gQf-JS-5u7"/>
+                        <outlet property="tips6Button" destination="qmZ-C2-UzK" id="1G7-Pk-PYA"/>
                         <outlet property="tips6Image" destination="Y22-Tm-Nuw" id="kmb-Vb-RAd"/>
                         <outlet property="tips6Label" destination="MLd-UJ-eNz" id="JLB-7T-qxN"/>
                         <outlet property="tips6View" destination="jMg-O5-26S" id="g7B-QH-fhQ"/>
+                        <outlet property="tips7Button" destination="x81-md-CoT" id="9HV-rc-1Kb"/>
                         <outlet property="tips7Image" destination="dDf-JS-yYm" id="TAU-4u-xKz"/>
                         <outlet property="tips7Label" destination="YHY-qR-gud" id="LP1-1o-dPu"/>
                         <outlet property="tips7View" destination="Gi3-X0-MZX" id="VyT-oq-4DY"/>
+                        <outlet property="tips8Button" destination="R0d-P0-Oko" id="6rm-Dx-68Q"/>
                         <outlet property="tips8Image" destination="dAs-nX-e5E" id="AxG-Em-BUM"/>
                         <outlet property="tips8Label" destination="dxP-vE-eAa" id="OOD-nc-XJ9"/>
                         <outlet property="tips8View" destination="4sf-aV-CYh" id="05D-Hp-btQ"/>
+                        <outlet property="tips9Button" destination="haH-tC-zvs" id="h1m-1O-46e"/>
                         <outlet property="tips9Image" destination="wRV-pX-7tv" id="Bu5-g4-FqW"/>
                         <outlet property="tips9Label" destination="EBF-vg-DJL" id="QZc-bC-TVt"/>
                         <outlet property="tips9View" destination="eLf-79-Z87" id="2Fi-if-Umm"/>
+                        <outlet property="tpis4Button" destination="ags-Rd-9h9" id="XZz-4G-S0Q"/>
+                        <outlet property="tpis5Button" destination="ov0-SI-nVX" id="si4-Oe-sqB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YMI-hZ-24w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -429,7 +531,9 @@
         <!--TipsDemamVC-->
         <scene sceneID="w8T-U4-wbl">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsDemamVC" id="8Ga-i4-uz1" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsDemamVC" id="8Ga-i4-uz1" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="OfH-ZR-g6k"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySK-6Y-eXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2118" y="346"/>
@@ -437,7 +541,9 @@
         <!--TipsBradikardiaVC-->
         <scene sceneID="HKf-5n-z35">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBradikardiaVC" id="FEr-Rm-YWx" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBradikardiaVC" id="FEr-Rm-YWx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ri4-fc-0BA"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpD-AQ-SMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2136" y="457"/>
@@ -445,7 +551,9 @@
         <!--tipsHipothermiaVC-->
         <scene sceneID="WcW-en-oxk">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="tipsHipothermiaVC" id="LRr-JU-fI4" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="tipsHipothermiaVC" id="LRr-JU-fI4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="4R5-rJ-CUh"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OM4-rm-pXn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2135" y="547"/>
@@ -453,7 +561,9 @@
         <!--TipsTakikardiaVC-->
         <scene sceneID="E3i-P2-VZV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTakikardiaVC" id="hgd-Xn-8gB" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTakikardiaVC" id="hgd-Xn-8gB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="oFe-Rd-jNZ"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7NU-fL-6Kz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2150" y="654"/>
@@ -461,7 +571,9 @@
         <!--TipsBeratBadanRendahVC-->
         <scene sceneID="Zz7-84-gfb">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBeratBadanRendahVC" id="j0D-yW-wzx" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBeratBadanRendahVC" id="j0D-yW-wzx" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vkL-Mx-bNM"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdJ-Ag-qzL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2202" y="786"/>
@@ -469,7 +581,9 @@
         <!--TipsHumidityTinggiVC-->
         <scene sceneID="ywC-lx-oT0">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityTinggiVC" id="W6Z-QU-0wn" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityTinggiVC" id="W6Z-QU-0wn" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="PJJ-fS-tpv"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q1A-Jk-3bD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2180" y="868"/>
@@ -477,7 +591,9 @@
         <!--TipsHumidityRendahVC-->
         <scene sceneID="7dZ-il-aaV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityRendahVC" id="jBl-50-Itt" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityRendahVC" id="jBl-50-Itt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="u6g-Eg-QfO"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SwE-ol-lYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2173" y="985"/>
@@ -485,7 +601,9 @@
         <!--TipsTempKabTinggiVC-->
         <scene sceneID="YNu-51-li7">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabTinggiVC" id="jaP-ZF-bsd" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabTinggiVC" id="jaP-ZF-bsd" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Due-Vh-axh"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tub-fx-o5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2163" y="1046"/>
@@ -493,7 +611,9 @@
         <!--TipsTempKabRendahVC-->
         <scene sceneID="zK4-OY-cHV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabRendahVC" id="Hsn-Tv-Olu" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabRendahVC" id="Hsn-Tv-Olu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="J16-22-j70"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mx9-0E-Mpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2241" y="1122"/>
@@ -611,6 +731,15 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZB-T1-saS">
                                 <rect key="frame" x="30" y="654" width="315" height="60"/>
                                 <subviews>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faL-1t-Vko">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="60"/>
+                                        <state key="highlighted" backgroundImage="Button Hold">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="dKp-ZU-OL2" kind="show" id="LlU-T2-OqD"/>
+                                        </connections>
+                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lihat semua data inkubator" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSb-35-vMq">
                                         <rect key="frame" x="29.999999999999986" y="19.333333333333371" width="217.66666666666663" height="21.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -630,7 +759,11 @@
                                 <constraints>
                                     <constraint firstItem="gSb-35-vMq" firstAttribute="centerY" secondItem="SZB-T1-saS" secondAttribute="centerY" id="9SI-ps-iKf"/>
                                     <constraint firstItem="X2o-W4-O2l" firstAttribute="centerY" secondItem="SZB-T1-saS" secondAttribute="centerY" id="Il9-K9-sJX"/>
+                                    <constraint firstItem="faL-1t-Vko" firstAttribute="leading" secondItem="SZB-T1-saS" secondAttribute="leading" id="K4X-cp-Pvd"/>
+                                    <constraint firstItem="faL-1t-Vko" firstAttribute="top" secondItem="SZB-T1-saS" secondAttribute="top" id="QOZ-nQ-Cbh"/>
                                     <constraint firstItem="gSb-35-vMq" firstAttribute="leading" secondItem="SZB-T1-saS" secondAttribute="leading" constant="30" id="UwI-pq-Cj2"/>
+                                    <constraint firstAttribute="bottom" secondItem="faL-1t-Vko" secondAttribute="bottom" id="ajV-vY-1gR"/>
+                                    <constraint firstAttribute="trailing" secondItem="faL-1t-Vko" secondAttribute="trailing" id="bDg-z0-xSz"/>
                                     <constraint firstAttribute="trailing" secondItem="X2o-W4-O2l" secondAttribute="trailing" constant="15" id="squ-Gp-rKz"/>
                                 </constraints>
                                 <connections>
@@ -660,6 +793,7 @@
                         <outlet property="pulseImageView" destination="fuL-ba-IoC" id="lKt-CD-DTS"/>
                         <outlet property="pulseLabel" destination="Y0v-Ct-IgM" id="sHk-Jq-syV"/>
                         <outlet property="smallView" destination="SZB-T1-saS" id="ygW-TR-Fed"/>
+                        <outlet property="smallViewButton" destination="faL-1t-Vko" id="voz-d0-jXf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yFk-z6-nLr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -739,7 +873,20 @@
             <point key="canvasLocation" x="712" y="549"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="PtC-QP-EIP"/>
+        <segue reference="5JI-1O-OXR"/>
+        <segue reference="L1K-Pg-MTv"/>
+        <segue reference="Ya0-TU-Duf"/>
+        <segue reference="xSA-XK-KN0"/>
+        <segue reference="0xf-ku-2xu"/>
+        <segue reference="CP1-C1-Y1D"/>
+        <segue reference="jYK-Ed-ljm"/>
+        <segue reference="BhP-40-1nl"/>
+        <segue reference="gke-rq-WPB"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="Button Hold" width="718" height="196"/>
         <image name="arrow" width="11" height="18"/>
         <image name="heart.fill" catalog="system" width="128" height="109"/>
         <image name="lightbulb.fill" catalog="system" width="113" height="128"/>

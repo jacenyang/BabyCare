@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="odg-Yi-gfI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="odg-Yi-gfI">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -46,14 +46,27 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8v-Iz-qpt">
+                                                                <rect key="frame" x="0.0" y="0.0" width="366" height="127.5"/>
+                                                                <state key="highlighted" backgroundImage="Button Hold">
+                                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <segue destination="jFh-FR-QbO" kind="show" id="q9I-GC-28X"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
+                                                            <constraint firstItem="x8v-Iz-qpt" firstAttribute="top" secondItem="wRV-7Y-7UL" secondAttribute="top" id="JmP-ru-Y5S"/>
                                                             <constraint firstAttribute="trailing" secondItem="lcY-Cl-zxp" secondAttribute="trailing" constant="16" id="MJh-Y2-1DV"/>
                                                             <constraint firstItem="lcY-Cl-zxp" firstAttribute="top" secondItem="wRV-7Y-7UL" secondAttribute="top" constant="16" id="Tr2-Qt-z9k"/>
+                                                            <constraint firstAttribute="trailing" secondItem="x8v-Iz-qpt" secondAttribute="trailing" id="bt8-nA-6cy"/>
                                                             <constraint firstItem="lcY-Cl-zxp" firstAttribute="leading" secondItem="wRV-7Y-7UL" secondAttribute="leading" constant="16" id="hTF-RP-I3R"/>
                                                             <constraint firstAttribute="bottom" secondItem="lcY-Cl-zxp" secondAttribute="bottom" constant="16" id="hcg-x3-ckZ"/>
+                                                            <constraint firstAttribute="bottom" secondItem="x8v-Iz-qpt" secondAttribute="bottom" id="s00-HZ-Clw"/>
+                                                            <constraint firstItem="x8v-Iz-qpt" firstAttribute="leading" secondItem="wRV-7Y-7UL" secondAttribute="leading" id="vUC-LJ-HAN"/>
                                                         </constraints>
                                                         <connections>
                                                             <outletCollection property="gestureRecognizers" destination="MxA-7q-mxP" appends="YES" id="jaC-tJ-Uex"/>
@@ -79,12 +92,25 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aJf-hJ-TBA">
+                                                                <rect key="frame" x="0.0" y="0.0" width="366" height="127.5"/>
+                                                                <state key="highlighted" backgroundImage="Button Hold">
+                                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <segue destination="5eE-dy-4SN" kind="show" id="NEG-a6-f3p"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
                                                             <constraint firstAttribute="trailing" secondItem="IgX-FE-0pv" secondAttribute="trailing" constant="16" id="Xi7-zT-2eH"/>
                                                             <constraint firstItem="IgX-FE-0pv" firstAttribute="leading" secondItem="5hP-au-5Tv" secondAttribute="leading" constant="16" id="Yey-Gf-X7K"/>
+                                                            <constraint firstItem="aJf-hJ-TBA" firstAttribute="top" secondItem="5hP-au-5Tv" secondAttribute="top" id="Yyy-b5-IcZ"/>
+                                                            <constraint firstAttribute="trailing" secondItem="aJf-hJ-TBA" secondAttribute="trailing" id="Zyl-3D-Us4"/>
+                                                            <constraint firstAttribute="bottom" secondItem="aJf-hJ-TBA" secondAttribute="bottom" id="dN2-DV-PzY"/>
+                                                            <constraint firstItem="aJf-hJ-TBA" firstAttribute="leading" secondItem="5hP-au-5Tv" secondAttribute="leading" id="nTh-SU-aRv"/>
                                                             <constraint firstAttribute="bottom" secondItem="IgX-FE-0pv" secondAttribute="bottom" constant="16" id="t27-Ti-tSG"/>
                                                             <constraint firstItem="IgX-FE-0pv" firstAttribute="top" secondItem="5hP-au-5Tv" secondAttribute="top" constant="16" id="y9C-ee-vQs"/>
                                                         </constraints>
@@ -112,12 +138,25 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kg-0r-DNF">
+                                                                <rect key="frame" x="0.0" y="0.0" width="366" height="128"/>
+                                                                <state key="highlighted" backgroundImage="Button Hold">
+                                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <segue destination="Mis-Op-N8K" kind="show" id="2uf-Rc-CEb"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
+                                                            <constraint firstItem="3Kg-0r-DNF" firstAttribute="leading" secondItem="oi2-G5-QOE" secondAttribute="leading" id="2ga-Q8-lb6"/>
                                                             <constraint firstItem="2Jb-z4-UCy" firstAttribute="top" secondItem="oi2-G5-QOE" secondAttribute="top" constant="16" id="7Dg-gg-i4i"/>
+                                                            <constraint firstAttribute="trailing" secondItem="3Kg-0r-DNF" secondAttribute="trailing" id="Pks-YK-4Re"/>
+                                                            <constraint firstItem="3Kg-0r-DNF" firstAttribute="top" secondItem="oi2-G5-QOE" secondAttribute="top" id="nnt-7s-Elx"/>
                                                             <constraint firstItem="2Jb-z4-UCy" firstAttribute="leading" secondItem="oi2-G5-QOE" secondAttribute="leading" constant="16" id="pA4-BO-0SC"/>
+                                                            <constraint firstAttribute="bottom" secondItem="3Kg-0r-DNF" secondAttribute="bottom" id="rKK-fC-IIf"/>
                                                             <constraint firstAttribute="bottom" secondItem="2Jb-z4-UCy" secondAttribute="bottom" constant="16" id="yXi-1D-rFi"/>
                                                             <constraint firstAttribute="trailing" secondItem="2Jb-z4-UCy" secondAttribute="trailing" constant="16" id="zTg-bx-UO1"/>
                                                         </constraints>
@@ -145,6 +184,16 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5M-vf-29E">
+                                                                <rect key="frame" x="0.0" y="-1" width="366" height="128"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="highlighted" backgroundImage="Button Hold">
+                                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <segue destination="1K4-9P-Lvr" kind="show" id="LI0-qe-xNb"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <gestureRecognizers/>
@@ -178,6 +227,16 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHF-ke-tMq">
+                                                                <rect key="frame" x="0.0" y="-0.5" width="366" height="128"/>
+                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                <state key="highlighted" backgroundImage="Button Hold">
+                                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <segue destination="wGR-lm-gvT" kind="show" id="n7Z-eZ-uDG"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <gestureRecognizers/>
@@ -227,12 +286,17 @@
                         <outlet property="babyTempLabel" destination="IZS-VM-DDY" id="GbO-Kd-1hF"/>
                         <outlet property="cabinTempLabel" destination="LVP-5c-wgD" id="J42-xF-ah1"/>
                         <outlet property="fifthView" destination="deu-GU-h1H" id="W0b-ZG-x7g"/>
+                        <outlet property="fifthViewButton" destination="CHF-ke-tMq" id="Efc-LV-RPg"/>
                         <outlet property="firstView" destination="wRV-7Y-7UL" id="Zyi-fk-Tes"/>
+                        <outlet property="firstViewButton" destination="x8v-Iz-qpt" id="MpR-1B-geP"/>
                         <outlet property="fourthView" destination="HPL-hG-QAG" id="V7N-f1-vdT"/>
+                        <outlet property="fourthViewButton" destination="U5M-vf-29E" id="NP5-fA-vlP"/>
                         <outlet property="humidityLabel" destination="1kS-pS-vup" id="LJD-Gm-cTw"/>
                         <outlet property="pulseLabel" destination="uLv-tm-8ao" id="jzU-qN-xdJ"/>
                         <outlet property="secondView" destination="5hP-au-5Tv" id="2VB-XG-roy"/>
+                        <outlet property="secondViewButton" destination="aJf-hJ-TBA" id="hUr-9T-nQN"/>
                         <outlet property="thirdView" destination="oi2-G5-QOE" id="Lcn-dt-cFw"/>
+                        <outlet property="thirdViewButton" destination="3Kg-0r-DNF" id="c2H-rg-wlN"/>
                         <outlet property="weightLabel" destination="MXA-yR-QOI" id="Hkl-aY-eo7"/>
                     </connections>
                 </viewController>
@@ -316,7 +380,15 @@
             <point key="canvasLocation" x="1522" y="359"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="n7Z-eZ-uDG"/>
+        <segue reference="SRH-Wk-xDP"/>
+        <segue reference="iku-ce-eS6"/>
+        <segue reference="NEG-a6-f3p"/>
+        <segue reference="RJt-fU-U40"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="Button Hold" width="718" height="196"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
