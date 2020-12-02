@@ -10,7 +10,6 @@ import UIKit
 class TipsDemamVC: UIViewController {
     
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var titleLabel: UILabel!
     
     @IBOutlet weak var label1: UILabel!
