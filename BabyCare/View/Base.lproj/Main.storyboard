@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Lm-8Y-8a7">
-                                <rect key="frame" x="0.0" y="140" width="414" height="1177"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="1229"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-To-IM7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
@@ -78,7 +78,7 @@
                                                     <constraint firstItem="3sr-wI-Zzv" firstAttribute="top" secondItem="ORY-hP-h1R" secondAttribute="top" id="y0C-e2-CTq"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="O0A-mZ-hOM" appends="YES" id="XfT-WG-pTU"/>
+                                                    <outletCollection property="gestureRecognizers" destination="5gw-xT-vTS" appends="YES" id="rfJ-l5-Ayz"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3j-JU-e4d">
@@ -107,7 +107,7 @@
                                                     <constraint firstItem="ebt-tk-6lo" firstAttribute="leading" secondItem="D3j-JU-e4d" secondAttribute="leading" constant="8" id="kNg-2O-DUr"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="gOd-Va-pCM" appends="YES" id="lMw-QM-YQn"/>
+                                                    <outletCollection property="gestureRecognizers" destination="jvZ-lG-MAL" appends="YES" id="gij-xS-c9h"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbB-lK-TKQ">
@@ -136,7 +136,7 @@
                                                     <constraint firstItem="atp-T9-zFZ" firstAttribute="leading" secondItem="EbB-lK-TKQ" secondAttribute="leading" constant="207" id="wgT-2i-TNQ"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="yup-CT-AsF" appends="YES" id="alX-wq-eho"/>
+                                                    <outletCollection property="gestureRecognizers" destination="ff9-ue-ZtA" appends="YES" id="1vH-RC-j5N"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHO-vL-ag7">
@@ -165,7 +165,7 @@
                                                     <constraint firstItem="NUw-aX-Puc" firstAttribute="top" secondItem="JHO-vL-ag7" secondAttribute="top" constant="40" id="tRR-UY-omm"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="yAn-Vq-M3m" appends="YES" id="3l0-1L-NfW"/>
+                                                    <outletCollection property="gestureRecognizers" destination="kkM-yL-PYj" appends="YES" id="cGw-Ux-qpK"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMg-O5-26S">
@@ -194,7 +194,7 @@
                                                     <constraint firstItem="Y22-Tm-Nuw" firstAttribute="top" secondItem="jMg-O5-26S" secondAttribute="top" id="z3R-NZ-HZ5"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="ws0-ly-FWu" appends="YES" id="EZ1-ml-h8q"/>
+                                                    <outletCollection property="gestureRecognizers" destination="Z0J-Mf-pta" appends="YES" id="7kE-br-yKf"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gi3-X0-MZX">
@@ -223,7 +223,7 @@
                                                     <constraint firstItem="dDf-JS-yYm" firstAttribute="top" secondItem="Gi3-X0-MZX" secondAttribute="top" id="suw-k7-fDq"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="TN8-xd-w3I" appends="YES" id="C2t-Hs-h0N"/>
+                                                    <outletCollection property="gestureRecognizers" destination="pHU-At-ngT" appends="YES" id="0qw-bx-qJ0"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sf-aV-CYh">
@@ -252,7 +252,7 @@
                                                     <constraint firstItem="dxP-vE-eAa" firstAttribute="leading" secondItem="4sf-aV-CYh" secondAttribute="leading" constant="8" id="zLV-eM-CuX"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="Bvf-M7-zed" appends="YES" id="91H-Ui-cSL"/>
+                                                    <outletCollection property="gestureRecognizers" destination="IRV-AA-t3i" appends="YES" id="FAJ-S8-gqx"/>
                                                 </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLf-79-Z87">
@@ -281,7 +281,7 @@
                                                     <constraint firstAttribute="trailing" secondItem="wRV-pX-7tv" secondAttribute="trailing" id="sUQ-hz-wNw"/>
                                                 </constraints>
                                                 <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="ped-a5-HKI" appends="YES" id="J1E-z3-KUQ"/>
+                                                    <outletCollection property="gestureRecognizers" destination="LIL-Xk-0SK" appends="YES" id="64x-V4-Kwx"/>
                                                 </connections>
                                             </view>
                                         </subviews>
@@ -383,44 +383,44 @@
                         <segue destination="8Ga-i4-uz1" kind="presentation" id="c6m-eE-huS"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="gOd-Va-pCM">
+                <tapGestureRecognizer id="5gw-xT-vTS">
                     <connections>
-                        <segue destination="wbx-8k-BRm" kind="presentation" id="jbF-FG-niz"/>
+                        <segue destination="FEr-Rm-YWx" kind="presentation" id="eC0-UT-dvM"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="O0A-mZ-hOM">
+                <tapGestureRecognizer id="jvZ-lG-MAL">
                     <connections>
-                        <segue destination="ce9-3N-QVg" kind="presentation" id="YGM-ra-Nc2"/>
+                        <segue destination="LRr-JU-fI4" kind="presentation" id="jYK-Ed-ljm"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="yup-CT-AsF">
+                <tapGestureRecognizer id="ff9-ue-ZtA">
                     <connections>
-                        <segue destination="zmx-gN-8x4" kind="presentation" id="FhN-R4-PKk"/>
+                        <segue destination="hgd-Xn-8gB" kind="presentation" id="CP1-C1-Y1D"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="yAn-Vq-M3m">
+                <tapGestureRecognizer id="kkM-yL-PYj">
                     <connections>
-                        <segue destination="6W6-GT-BhK" kind="presentation" id="OJm-qH-lMU"/>
+                        <segue destination="j0D-yW-wzx" kind="presentation" id="w7k-Iu-ylh"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="TN8-xd-w3I">
+                <tapGestureRecognizer id="Z0J-Mf-pta">
                     <connections>
-                        <segue destination="ohJ-S9-9G6" kind="presentation" id="88x-zg-dos"/>
+                        <segue destination="W6Z-QU-0wn" kind="presentation" id="k1D-qV-pWN"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="ws0-ly-FWu">
+                <tapGestureRecognizer id="pHU-At-ngT">
                     <connections>
-                        <segue destination="m5X-w8-Kwq" kind="presentation" id="uCq-06-M7b"/>
+                        <segue destination="jBl-50-Itt" kind="presentation" id="Ya0-TU-Duf"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="Bvf-M7-zed">
+                <tapGestureRecognizer id="IRV-AA-t3i">
                     <connections>
-                        <segue destination="Rxe-gz-oF9" kind="presentation" id="MIC-uF-eay"/>
+                        <segue destination="jaP-ZF-bsd" kind="presentation" id="OFh-kp-XYo"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="ped-a5-HKI">
+                <tapGestureRecognizer id="LIL-Xk-0SK">
                     <connections>
-                        <segue destination="EVU-5T-wms" kind="presentation" id="MzV-rU-1dc"/>
+                        <segue destination="Hsn-Tv-Olu" kind="presentation" id="5JI-1O-OXR"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -432,71 +432,71 @@
                 <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsDemamVC" id="8Ga-i4-uz1" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ySK-6Y-eXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2118" y="404"/>
-        </scene>
-        <!--tipsHipothermiaVC-->
-        <scene sceneID="eqS-Q3-pbb">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="tipsHipothermiaVC" id="wbx-8k-BRm" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EeS-jH-rd7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2136" y="593"/>
+            <point key="canvasLocation" x="2118" y="346"/>
         </scene>
         <!--TipsBradikardiaVC-->
-        <scene sceneID="TZu-po-Zrb">
+        <scene sceneID="HKf-5n-z35">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBradikardiaVC" id="ce9-3N-QVg" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b6V-5d-yg0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBradikardiaVC" id="FEr-Rm-YWx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qpD-AQ-SMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2133" y="498"/>
+            <point key="canvasLocation" x="2136" y="457"/>
+        </scene>
+        <!--tipsHipothermiaVC-->
+        <scene sceneID="WcW-en-oxk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="tipsHipothermiaVC" id="LRr-JU-fI4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OM4-rm-pXn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2135" y="547"/>
         </scene>
         <!--TipsTakikardiaVC-->
-        <scene sceneID="cJ9-Dx-QDT">
+        <scene sceneID="E3i-P2-VZV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTakikardiaVC" id="zmx-gN-8x4" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Nq7-Xk-WKZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTakikardiaVC" id="hgd-Xn-8gB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7NU-fL-6Kz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2128" y="687"/>
+            <point key="canvasLocation" x="2150" y="654"/>
         </scene>
         <!--TipsBeratBadanRendahVC-->
-        <scene sceneID="WW5-bR-ohu">
+        <scene sceneID="Zz7-84-gfb">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBeratBadanRendahVC" id="6W6-GT-BhK" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vhw-YW-l6L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsBeratBadanRendahVC" id="j0D-yW-wzx" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdJ-Ag-qzL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2167" y="783"/>
+            <point key="canvasLocation" x="2202" y="786"/>
         </scene>
         <!--TipsHumidityTinggiVC-->
-        <scene sceneID="g4U-kk-Ubf">
+        <scene sceneID="ywC-lx-oT0">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityTinggiVC" id="m5X-w8-Kwq" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tu7-ao-xBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityTinggiVC" id="W6Z-QU-0wn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1A-Jk-3bD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2151" y="873"/>
+            <point key="canvasLocation" x="2180" y="868"/>
         </scene>
         <!--TipsHumidityRendahVC-->
-        <scene sceneID="Ny8-Yb-xvA">
+        <scene sceneID="7dZ-il-aaV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityRendahVC" id="ohJ-S9-9G6" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YnA-y4-Oxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsHumidityRendahVC" id="jBl-50-Itt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SwE-ol-lYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2156" y="972"/>
+            <point key="canvasLocation" x="2173" y="985"/>
         </scene>
         <!--TipsTempKabTinggiVC-->
-        <scene sceneID="roX-ON-ZIW">
+        <scene sceneID="YNu-51-li7">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabTinggiVC" id="Rxe-gz-oF9" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wgR-5c-quY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabTinggiVC" id="jaP-ZF-bsd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tub-fx-o5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2149" y="1065"/>
+            <point key="canvasLocation" x="2163" y="1046"/>
         </scene>
         <!--TipsTempKabRendahVC-->
-        <scene sceneID="x8d-5g-p6r">
+        <scene sceneID="zK4-OY-cHV">
             <objects>
-                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabRendahVC" id="EVU-5T-wms" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6PK-5O-NqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Tips" referencedIdentifier="TipsTempKabRendahVC" id="Hsn-Tv-Olu" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mx9-0E-Mpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2157" y="1154"/>
+            <point key="canvasLocation" x="2241" y="1122"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cbi-9i-XnM">
