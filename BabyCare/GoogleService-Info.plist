@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>760239942471-51p2fa4tst109dk962520j1tqgldh9ve.apps.googleusercontent.com</string>
+	<string>760239942471-29q5ef4lqsl89n2uj4m8ok5lqkfqssll.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.760239942471-51p2fa4tst109dk962520j1tqgldh9ve</string>
+	<string>com.googleusercontent.apps.760239942471-29q5ef4lqsl89n2uj4m8ok5lqkfqssll</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCFaG9znngljIgB7PxsGTMRvZPE3W45bsU</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.temperatur.BabyCareNew</string>
+	<string>com.temperatur.BabyCare</string>
 	<key>PROJECT_ID</key>
 	<string>baby-care-6f6b2</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:760239942471:ios:4c4a92d431dc21a3977a62</string>
+	<string>1:760239942471:ios:c543638f6d260adb977a62</string>
 	<key>DATABASE_URL</key>
 	<string>https://baby-care-6f6b2.firebaseio.com</string>
 </dict>
