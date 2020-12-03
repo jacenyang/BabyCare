@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C685BA8B479509E05DB8267 /* Pods_BabyCare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FE81D7843298C1C1DA871B /* Pods_BabyCare.framework */; };
-		548F50BB2578934E001676A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 548F50BA2578934E001676A1 /* GoogleService-Info.plist */; };
+		542537442579022D0006FAAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 542537432579022D0006FAAA /* GoogleService-Info.plist */; };
 		9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */; };
 		919818812573454700D75236 /* TipsTakikardiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919818802573454700D75236 /* TipsTakikardiaVC.swift */; };
 		91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A93BF3256F55470040EB39 /* Tips.storyboard */; };
@@ -58,7 +58,7 @@
 
 /* Begin PBXFileReference section */
 		542148E42577324C006225F1 /* BabyCare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BabyCare.entitlements; sourceTree = "<group>"; };
-		548F50BA2578934E001676A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		542537432579022D0006FAAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6DA89386E75F0D3B69BBE73F /* Pods-BabyCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabyCare.debug.xcconfig"; path = "Target Support Files/Pods-BabyCare/Pods-BabyCare.debug.xcconfig"; sourceTree = "<group>"; };
 		9198187B25726C0A00D75236 /* TipsBradikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsBradikardiaVC.swift; sourceTree = "<group>"; };
 		919818802573454700D75236 /* TipsTakikardiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTakikardiaVC.swift; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 				960B0B61256B554E000E40C3 /* SceneDelegate.swift */,
 				960B0B68256B554F000E40C3 /* Assets.xcassets */,
 				960B0B6A256B554F000E40C3 /* LaunchScreen.storyboard */,
-				548F50BA2578934E001676A1 /* GoogleService-Info.plist */,
+				542537432579022D0006FAAA /* GoogleService-Info.plist */,
 				960B0B6D256B554F000E40C3 /* Info.plist */,
 			);
 			path = BabyCare;
@@ -317,12 +317,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542537442579022D0006FAAA /* GoogleService-Info.plist in Resources */,
 				9658605B2570B9E5008842F2 /* Pulse.storyboard in Resources */,
 				960B0B6C256B554F000E40C3 /* LaunchScreen.storyboard in Resources */,
 				967CFC1C257303BA00395754 /* Weight.storyboard in Resources */,
 				96ADB79E256F57C1004D98F7 /* IncubatorData.storyboard in Resources */,
 				91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */,
-				548F50BB2578934E001676A1 /* GoogleService-Info.plist in Resources */,
 				967759E32578B39100466D2D /* QRScanner.storyboard in Resources */,
 				960B0B69256B554F000E40C3 /* Assets.xcassets in Resources */,
 				9658605E2570BA35008842F2 /* CabinTemp.storyboard in Resources */,
