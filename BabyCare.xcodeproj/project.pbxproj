@@ -33,6 +33,11 @@
 		9658605B2570B9E5008842F2 /* Pulse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9658605A2570B9E5008842F2 /* Pulse.storyboard */; };
 		9658605E2570BA35008842F2 /* CabinTemp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9658605D2570BA35008842F2 /* CabinTemp.storyboard */; };
 		967063D8256B6275007F30B0 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967063D7256B6275007F30B0 /* Onboarding.storyboard */; };
+		967759DF2578B19400466D2D /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759DE2578B19400466D2D /* QRData.swift */; };
+		967759E32578B39100466D2D /* QRScanner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967759E12578B39000466D2D /* QRScanner.storyboard */; };
+		967759E42578B39100466D2D /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759E22578B39100466D2D /* QRScannerView.swift */; };
+		967759E72578B40C00466D2D /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759E62578B40C00466D2D /* QRScannerViewController.swift */; };
+		967759EB2578B44A00466D2D /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759EA2578B44A00466D2D /* UIViewController+Alert.swift */; };
 		967CFC192573039300395754 /* Humidity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967CFC182573039300395754 /* Humidity.storyboard */; };
 		967CFC1C257303BA00395754 /* Weight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967CFC1B257303BA00395754 /* Weight.storyboard */; };
 		967CFC1F257303DC00395754 /* PulseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967CFC1E257303DC00395754 /* PulseViewController.swift */; };
@@ -81,6 +86,11 @@
 		9658605A2570B9E5008842F2 /* Pulse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pulse.storyboard; sourceTree = "<group>"; };
 		9658605D2570BA35008842F2 /* CabinTemp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CabinTemp.storyboard; sourceTree = "<group>"; };
 		967063D7256B6275007F30B0 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		967759DE2578B19400466D2D /* QRData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		967759E12578B39000466D2D /* QRScanner.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRScanner.storyboard; sourceTree = "<group>"; };
+		967759E22578B39100466D2D /* QRScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		967759E62578B40C00466D2D /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		967759EA2578B44A00466D2D /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
 		967CFC182573039300395754 /* Humidity.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Humidity.storyboard; sourceTree = "<group>"; };
 		967CFC1B257303BA00395754 /* Weight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weight.storyboard; sourceTree = "<group>"; };
 		967CFC1E257303DC00395754 /* PulseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +181,7 @@
 				960B0B75256B55AC000E40C3 /* Model */,
 				960B0B76256B55BE000E40C3 /* View */,
 				960B0B77256B55C5000E40C3 /* Controller */,
+				967759E92578B44A00466D2D /* Extension */,
 				960B0B5F256B554E000E40C3 /* AppDelegate.swift */,
 				960B0B61256B554E000E40C3 /* SceneDelegate.swift */,
 				960B0B68256B554F000E40C3 /* Assets.xcassets */,
@@ -187,6 +198,7 @@
 				9684E458256DFE4900A52E2B /* SensorManager.swift */,
 				9684E45B256DFE6F00A52E2B /* SensorModel.swift */,
 				9684E45E256DFE9100A52E2B /* SensorData.swift */,
+				967759DE2578B19400466D2D /* QRData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -196,6 +208,8 @@
 			children = (
 				960B0B65256B554E000E40C3 /* Main.storyboard */,
 				967063D7256B6275007F30B0 /* Onboarding.storyboard */,
+				967759E12578B39000466D2D /* QRScanner.storyboard */,
+				967759E22578B39100466D2D /* QRScannerView.swift */,
 				96ADB79D256F57C1004D98F7 /* IncubatorData.storyboard */,
 				91A93BF3256F55470040EB39 /* Tips.storyboard */,
 				9633CCF9256FA76A00516B43 /* BabyTemp.storyboard */,
@@ -213,6 +227,7 @@
 				9198187E2573440C00D75236 /* tips */,
 				960B0B63256B554E000E40C3 /* ViewController.swift */,
 				960B0B7F256B5CE0000E40C3 /* OnboardingViewController.swift */,
+				967759E62578B40C00466D2D /* QRScannerViewController.swift */,
 				96ADB7A0256F57FD004D98F7 /* IncubatorDataViewController.swift */,
 				91A93BF6256F565B0040EB39 /* ListTipsVC.swift */,
 				9658605425709552008842F2 /* BabyTempViewController.swift */,
@@ -227,6 +242,14 @@
 				967CFC2E257308F100395754 /* WeightTableViewCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		967759E92578B44A00466D2D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				967759EA2578B44A00466D2D /* UIViewController+Alert.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +323,7 @@
 				96ADB79E256F57C1004D98F7 /* IncubatorData.storyboard in Resources */,
 				91A93BF4256F55470040EB39 /* Tips.storyboard in Resources */,
 				548F50BB2578934E001676A1 /* GoogleService-Info.plist in Resources */,
+				967759E32578B39100466D2D /* QRScanner.storyboard in Resources */,
 				960B0B69256B554F000E40C3 /* Assets.xcassets in Resources */,
 				9658605E2570BA35008842F2 /* CabinTemp.storyboard in Resources */,
 				960B0B67256B554E000E40C3 /* Main.storyboard in Resources */,
@@ -362,22 +386,26 @@
 				91A93BF7256F565B0040EB39 /* ListTipsVC.swift in Sources */,
 				967CFC2C257308E400395754 /* HumidityTableViewCell.swift in Sources */,
 				9684E45F256DFE9100A52E2B /* SensorData.swift in Sources */,
+				967759E42578B39100466D2D /* QRScannerView.swift in Sources */,
 				967CFC352573091400395754 /* WeightViewController.swift in Sources */,
 				91D5929825735DFB00680738 /* TipsTempKabTinggiVC.swift in Sources */,
 				91D5929525735B0300680738 /* TipsHumidityTinggiVC.swift in Sources */,
 				9658605525709552008842F2 /* BabyTempViewController.swift in Sources */,
+				967759E72578B40C00466D2D /* QRScannerViewController.swift in Sources */,
 				91A93C062571EA290040EB39 /* tipsHipothermiaVC.swift in Sources */,
 				91A93BFA256F5C7F0040EB39 /* TipsDemamVC.swift in Sources */,
 				96586058257096DB008842F2 /* BabyTempTableViewCell.swift in Sources */,
 				91D5929B25735E2300680738 /* TipsTempKabRendahVC.swift in Sources */,
 				960B0B64256B554E000E40C3 /* ViewController.swift in Sources */,
 				960B0B60256B554E000E40C3 /* AppDelegate.swift in Sources */,
+				967759DF2578B19400466D2D /* QRData.swift in Sources */,
 				967CFC322573090400395754 /* HumidityViewController.swift in Sources */,
 				9684E459256DFE4900A52E2B /* SensorManager.swift in Sources */,
 				919818812573454700D75236 /* TipsTakikardiaVC.swift in Sources */,
 				91D5928F2573560100680738 /* TipsBeratBadanRendahVC.swift in Sources */,
 				967CFC22257305A400395754 /* PulseTableViewCell.swift in Sources */,
 				967CFC2F257308F100395754 /* WeightTableViewCell.swift in Sources */,
+				967759EB2578B44A00466D2D /* UIViewController+Alert.swift in Sources */,
 				9684E45C256DFE6F00A52E2B /* SensorModel.swift in Sources */,
 				9198187C25726C0A00D75236 /* TipsBradikardiaVC.swift in Sources */,
 				960B0B62256B554E000E40C3 /* SceneDelegate.swift in Sources */,
@@ -535,7 +563,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BabyCare/BabyCare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B3Z79P8J6A;
+				DEVELOPMENT_TEAM = R8X64JCXMP;
 				INFOPLIST_FILE = BabyCare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -558,7 +586,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BabyCare/BabyCare.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B3Z79P8J6A;
+				DEVELOPMENT_TEAM = R8X64JCXMP;
 				INFOPLIST_FILE = BabyCare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

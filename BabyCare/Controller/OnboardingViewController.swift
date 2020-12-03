@@ -81,7 +81,7 @@ class OnboardingViewController: UIViewController {
         guard button.tag < 3 else {
             // Dismiss
             Core.shared.setIsNotNewUser()
-            dismiss(animated: true , completion: nil)
+            performSegue(withIdentifier: "goToQR", sender: nil)
             return
         }
         //Scroll to next page

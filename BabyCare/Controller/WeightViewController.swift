@@ -65,7 +65,7 @@ class WeightViewController: UIViewController {
     
     func fetchAPIthinkSpeak(onSuccess : @escaping () -> Void) {
         
-        guard let apiURL = URL(string: "https://api.thingspeak.com/channels/592779/feeds.json") else { return }
+        guard let apiURL = URL(string: UserDefaults.standard.string(forKey: "sensorURL")!) else { return }
         URLSession.shared.dataTask(with: apiURL) {(data, response, error) in
             
             guard let data = data else {return}

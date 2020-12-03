@@ -14,13 +14,14 @@ protocol SensorManagerDelegate {
 
 struct SensorManager {
     
-    let sensorURL = "https://api.thingspeak.com/channels/592779/feeds.json"
+    //    let sensorURL = "https://api.thingspeak.com/channels/592779/feeds.json"
     
     var delegate: SensorManagerDelegate?
     
     func fetchSensor() {
-        let urlString = "\(sensorURL)"
-        performRequest(with: urlString)
+        if let urlString = UserDefaults.standard.string(forKey: "sensorURL") {
+            performRequest(with: urlString)
+        }
     }
     
     func performRequest(with urlString: String) {

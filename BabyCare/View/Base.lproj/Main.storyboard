@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZHV-iB-Ket">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZHV-iB-Ket">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Lm-8Y-8a7">
-                                <rect key="frame" x="0.0" y="88" width="414" height="1229"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="1177"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9p-To-IM7">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
@@ -790,9 +790,6 @@
                                     <constraint firstAttribute="trailing" secondItem="faL-1t-Vko" secondAttribute="trailing" id="bDg-z0-xSz"/>
                                     <constraint firstAttribute="trailing" secondItem="X2o-W4-O2l" secondAttribute="trailing" constant="15" id="squ-Gp-rKz"/>
                                 </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="HTi-Kw-5Zy" appends="YES" id="Nc1-ZR-v6z"/>
-                                </connections>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rSm-Xs-KN1"/>
@@ -821,11 +818,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yFk-z6-nLr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="HTi-Kw-5Zy">
-                    <connections>
-                        <segue destination="dKp-ZU-OL2" kind="show" id="PtC-QP-EIP"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1621.5999999999999" y="-190.64039408866995"/>
         </scene>
@@ -842,7 +834,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="IeN-bf-g9O">
             <objects>
-                <tabBarController id="ZHV-iB-Ket" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="ZHV-iB-Ket" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n9Q-NU-u6O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -898,7 +890,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="PtC-QP-EIP"/>
         <segue reference="5JI-1O-OXR"/>
         <segue reference="L1K-Pg-MTv"/>
         <segue reference="Ya0-TU-Duf"/>

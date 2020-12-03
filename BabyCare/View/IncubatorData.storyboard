@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="odg-Yi-gfI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="odg-Yi-gfI">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -68,9 +68,6 @@
                                                             <constraint firstAttribute="bottom" secondItem="x8v-Iz-qpt" secondAttribute="bottom" id="s00-HZ-Clw"/>
                                                             <constraint firstItem="x8v-Iz-qpt" firstAttribute="leading" secondItem="wRV-7Y-7UL" secondAttribute="leading" id="vUC-LJ-HAN"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <outletCollection property="gestureRecognizers" destination="MxA-7q-mxP" appends="YES" id="jaC-tJ-Uex"/>
-                                                        </connections>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5hP-au-5Tv" userLabel="secondView">
                                                         <rect key="frame" x="0.0" y="157.5" width="366" height="127.5"/>
@@ -114,9 +111,6 @@
                                                             <constraint firstAttribute="bottom" secondItem="IgX-FE-0pv" secondAttribute="bottom" constant="16" id="t27-Ti-tSG"/>
                                                             <constraint firstItem="IgX-FE-0pv" firstAttribute="top" secondItem="5hP-au-5Tv" secondAttribute="top" constant="16" id="y9C-ee-vQs"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <outletCollection property="gestureRecognizers" destination="4TL-vn-lHy" appends="YES" id="5NY-nZ-p7I"/>
-                                                        </connections>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oi2-G5-QOE" userLabel="thirdView">
                                                         <rect key="frame" x="0.0" y="315" width="366" height="128"/>
@@ -160,9 +154,6 @@
                                                             <constraint firstAttribute="bottom" secondItem="2Jb-z4-UCy" secondAttribute="bottom" constant="16" id="yXi-1D-rFi"/>
                                                             <constraint firstAttribute="trailing" secondItem="2Jb-z4-UCy" secondAttribute="trailing" constant="16" id="zTg-bx-UO1"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <outletCollection property="gestureRecognizers" destination="Rmv-9i-UT0" appends="YES" id="7lL-KP-yKK"/>
-                                                        </connections>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HPL-hG-QAG" userLabel="fourthView">
                                                         <rect key="frame" x="0.0" y="473" width="366" height="127.5"/>
@@ -206,9 +197,6 @@
                                                             <constraint firstAttribute="trailing" secondItem="mPA-AL-uRE" secondAttribute="trailing" constant="16" id="e22-fB-Bw1"/>
                                                             <constraint firstItem="U5M-vf-29E" firstAttribute="leading" secondItem="HPL-hG-QAG" secondAttribute="leading" id="gwO-qz-UGH"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <outletCollection property="gestureRecognizers" destination="KMJ-7N-Qhw" appends="YES" id="kRh-p4-8TM"/>
-                                                        </connections>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="deu-GU-h1H" userLabel="fifthView">
                                                         <rect key="frame" x="0.0" y="630.5" width="366" height="127.5"/>
@@ -252,9 +240,6 @@
                                                             <constraint firstAttribute="trailing" secondItem="l5E-do-dq2" secondAttribute="trailing" constant="16" id="ZVf-aW-5Mf"/>
                                                             <constraint firstItem="CHF-ke-tMq" firstAttribute="leading" secondItem="deu-GU-h1H" secondAttribute="leading" id="gpp-6G-3jC"/>
                                                         </constraints>
-                                                        <connections>
-                                                            <outletCollection property="gestureRecognizers" destination="eW7-v2-lrZ" appends="YES" id="3w8-p0-r4V"/>
-                                                        </connections>
                                                     </view>
                                                 </subviews>
                                             </stackView>
@@ -307,31 +292,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dN-Qu-CHn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="MxA-7q-mxP">
-                    <connections>
-                        <segue destination="jFh-FR-QbO" kind="show" id="RJt-fU-U40"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="4TL-vn-lHy">
-                    <connections>
-                        <segue destination="5eE-dy-4SN" kind="show" id="41W-Rf-1Pe"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Rmv-9i-UT0">
-                    <connections>
-                        <segue destination="Mis-Op-N8K" kind="show" id="iku-ce-eS6"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="KMJ-7N-Qhw">
-                    <connections>
-                        <segue destination="1K4-9P-Lvr" kind="show" id="SRH-Wk-xDP"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="eW7-v2-lrZ">
-                    <connections>
-                        <segue destination="wGR-lm-gvT" kind="show" id="uhX-0e-6Pv"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="947.82608695652186" y="140.625"/>
         </scene>
@@ -386,13 +346,6 @@
             <point key="canvasLocation" x="1522" y="359"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="n7Z-eZ-uDG"/>
-        <segue reference="SRH-Wk-xDP"/>
-        <segue reference="iku-ce-eS6"/>
-        <segue reference="NEG-a6-f3p"/>
-        <segue reference="RJt-fU-U40"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Button Hold" width="718" height="196"/>
         <systemColor name="systemBackgroundColor">

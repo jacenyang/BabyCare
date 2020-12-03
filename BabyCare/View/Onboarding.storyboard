@@ -33,11 +33,22 @@
                     </view>
                     <connections>
                         <outlet property="holderView" destination="8yB-FP-nrN" id="mEX-VI-gyP"/>
+                        <segue destination="C3Q-vS-jVj" kind="show" identifier="goToQR" id="Gm3-pl-XwM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TZe-q7-BUK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-222" y="-61"/>
+        </scene>
+        <!--QRScanner-->
+        <scene sceneID="zbu-xz-mdj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QRScanner" id="C3Q-vS-jVj" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="kTb-Dh-5ny"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uKx-ef-3mf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="412" y="-62"/>
         </scene>
     </scenes>
     <resources>
