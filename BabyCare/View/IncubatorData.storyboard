@@ -184,9 +184,8 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5M-vf-29E">
-                                                                <rect key="frame" x="0.0" y="-1" width="366" height="128"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5M-vf-29E">
+                                                                <rect key="frame" x="0.0" y="0.0" width="366" height="127.5"/>
                                                                 <state key="highlighted" backgroundImage="Button Hold">
                                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                 </state>
@@ -199,9 +198,13 @@
                                                         <gestureRecognizers/>
                                                         <constraints>
                                                             <constraint firstAttribute="bottom" secondItem="mPA-AL-uRE" secondAttribute="bottom" constant="16" id="4RX-Ps-HRS"/>
+                                                            <constraint firstAttribute="bottom" secondItem="U5M-vf-29E" secondAttribute="bottom" id="4ff-47-8hg"/>
                                                             <constraint firstItem="mPA-AL-uRE" firstAttribute="leading" secondItem="HPL-hG-QAG" secondAttribute="leading" constant="16" id="5P4-7a-fGD"/>
                                                             <constraint firstItem="mPA-AL-uRE" firstAttribute="top" secondItem="HPL-hG-QAG" secondAttribute="top" constant="16" id="8QI-YM-UY9"/>
+                                                            <constraint firstItem="U5M-vf-29E" firstAttribute="top" secondItem="HPL-hG-QAG" secondAttribute="top" id="Opn-UP-yrU"/>
+                                                            <constraint firstAttribute="trailing" secondItem="U5M-vf-29E" secondAttribute="trailing" id="aSc-16-IO1"/>
                                                             <constraint firstAttribute="trailing" secondItem="mPA-AL-uRE" secondAttribute="trailing" constant="16" id="e22-fB-Bw1"/>
+                                                            <constraint firstItem="U5M-vf-29E" firstAttribute="leading" secondItem="HPL-hG-QAG" secondAttribute="leading" id="gwO-qz-UGH"/>
                                                         </constraints>
                                                         <connections>
                                                             <outletCollection property="gestureRecognizers" destination="KMJ-7N-Qhw" appends="YES" id="kRh-p4-8TM"/>
@@ -227,9 +230,8 @@
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHF-ke-tMq">
-                                                                <rect key="frame" x="0.0" y="-0.5" width="366" height="128"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHF-ke-tMq">
+                                                                <rect key="frame" x="0.0" y="0.0" width="366" height="127.5"/>
                                                                 <state key="highlighted" backgroundImage="Button Hold">
                                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                                 </state>
@@ -241,10 +243,14 @@
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <gestureRecognizers/>
                                                         <constraints>
+                                                            <constraint firstItem="CHF-ke-tMq" firstAttribute="top" secondItem="deu-GU-h1H" secondAttribute="top" id="4RY-J7-BPY"/>
+                                                            <constraint firstAttribute="trailing" secondItem="CHF-ke-tMq" secondAttribute="trailing" id="8D6-F3-Nhz"/>
                                                             <constraint firstItem="l5E-do-dq2" firstAttribute="leading" secondItem="deu-GU-h1H" secondAttribute="leading" constant="16" id="8Eh-fG-Rht"/>
                                                             <constraint firstAttribute="bottom" secondItem="l5E-do-dq2" secondAttribute="bottom" constant="16" id="J49-kZ-D9x"/>
                                                             <constraint firstItem="l5E-do-dq2" firstAttribute="top" secondItem="deu-GU-h1H" secondAttribute="top" constant="16" id="JjS-bw-gn8"/>
+                                                            <constraint firstAttribute="bottom" secondItem="CHF-ke-tMq" secondAttribute="bottom" id="SfM-ww-jL1"/>
                                                             <constraint firstAttribute="trailing" secondItem="l5E-do-dq2" secondAttribute="trailing" constant="16" id="ZVf-aW-5Mf"/>
+                                                            <constraint firstItem="CHF-ke-tMq" firstAttribute="leading" secondItem="deu-GU-h1H" secondAttribute="leading" id="gpp-6G-3jC"/>
                                                         </constraints>
                                                         <connections>
                                                             <outletCollection property="gestureRecognizers" destination="eW7-v2-lrZ" appends="YES" id="3w8-p0-r4V"/>
