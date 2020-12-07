@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="p3D-eR-MIg">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -14,18 +14,18 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="p3D-eR-MIg" customClass="QRScannerViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KaK-ja-Kzq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9dJ-Uh-kX8" customClass="QRScannerView" customModule="BabyCare" customModuleProvider="target">
-                                <rect key="frame" x="30" y="271" width="354" height="354"/>
+                                <rect key="frame" x="60" y="140" width="200" height="200"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="9dJ-Uh-kX8" secondAttribute="height" multiplier="1:1" id="Im0-qu-CLU"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan QR Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFc-RJ-1BG">
-                                <rect key="frame" x="30" y="104" width="354" height="29"/>
+                                <rect key="frame" x="30" y="30" width="260" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan QR Code yang terpasang  pada inkubator untuk konfigurasi perangkat" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LW-GV-yep">
-                                <rect key="frame" x="30" y="148" width="354" height="43"/>
+                                <rect key="frame" x="30" y="74" width="260" height="64.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -47,13 +47,13 @@
                         <viewLayoutGuide key="safeArea" id="w0y-lW-O7Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="LFc-RJ-1BG" firstAttribute="top" secondItem="w0y-lW-O7Q" secondAttribute="top" constant="60" id="BVk-2F-fK2"/>
+                            <constraint firstItem="LFc-RJ-1BG" firstAttribute="top" secondItem="w0y-lW-O7Q" secondAttribute="top" constant="30" id="BVk-2F-fK2"/>
                             <constraint firstItem="9dJ-Uh-kX8" firstAttribute="centerY" secondItem="KaK-ja-Kzq" secondAttribute="centerY" id="Xma-vV-rXT"/>
                             <constraint firstItem="LFc-RJ-1BG" firstAttribute="leading" secondItem="w0y-lW-O7Q" secondAttribute="leading" constant="30" id="efa-Y9-K9K"/>
                             <constraint firstItem="w0y-lW-O7Q" firstAttribute="trailing" secondItem="LFc-RJ-1BG" secondAttribute="trailing" constant="30" id="lcn-T7-Bdy"/>
-                            <constraint firstItem="9dJ-Uh-kX8" firstAttribute="leading" secondItem="w0y-lW-O7Q" secondAttribute="leading" constant="30" id="pVh-Jr-LNH"/>
+                            <constraint firstItem="9dJ-Uh-kX8" firstAttribute="leading" secondItem="w0y-lW-O7Q" secondAttribute="leading" constant="60" id="pVh-Jr-LNH"/>
                             <constraint firstItem="1LW-GV-yep" firstAttribute="leading" secondItem="w0y-lW-O7Q" secondAttribute="leading" constant="30" id="uH1-7n-dBE"/>
-                            <constraint firstItem="w0y-lW-O7Q" firstAttribute="trailing" secondItem="9dJ-Uh-kX8" secondAttribute="trailing" constant="30" id="uVc-iw-B6E"/>
+                            <constraint firstItem="w0y-lW-O7Q" firstAttribute="trailing" secondItem="9dJ-Uh-kX8" secondAttribute="trailing" constant="60" id="uVc-iw-B6E"/>
                             <constraint firstAttribute="trailing" secondItem="1LW-GV-yep" secondAttribute="trailing" constant="30" id="vdF-Bh-cC0"/>
                             <constraint firstItem="1LW-GV-yep" firstAttribute="top" secondItem="LFc-RJ-1BG" secondAttribute="bottom" constant="15" id="zaM-Rz-KH1"/>
                         </constraints>

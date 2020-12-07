@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pasang Plug Inkubator ke Terminal Listrik" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mxu-5K-KKz">
-                                <rect key="frame" x="30" y="89" width="354" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pasang Plug Inkubator ke Terminal Listrik" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="Mxu-5K-KKz">
+                                <rect key="frame" x="30" y="74" width="354" height="72"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding/1" translatesAutoresizingMaskIntoConstraints="NO" id="2wn-Hn-6wg">
-                                <rect key="frame" x="45" y="286" width="324" height="324"/>
+                                <rect key="frame" x="68.5" y="309.5" width="277.5" height="277.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2wn-Hn-6wg" secondAttribute="height" multiplier="1:1" id="oLk-o3-hKb"/>
                                 </constraints>
@@ -67,17 +67,17 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="xqD-rb-1jO" firstAttribute="leading" secondItem="rPJ-UX-C8N" secondAttribute="leading" constant="60" id="ClM-fe-M7e"/>
-                            <constraint firstItem="Mxu-5K-KKz" firstAttribute="top" secondItem="rPJ-UX-C8N" secondAttribute="top" constant="45" id="IPC-YN-ZVS"/>
+                            <constraint firstItem="Mxu-5K-KKz" firstAttribute="top" secondItem="rPJ-UX-C8N" secondAttribute="top" constant="30" id="IPC-YN-ZVS"/>
                             <constraint firstItem="rPJ-UX-C8N" firstAttribute="trailing" secondItem="xqD-rb-1jO" secondAttribute="trailing" constant="60" id="NrE-9x-G3L"/>
                             <constraint firstItem="rPJ-UX-C8N" firstAttribute="bottom" secondItem="xqD-rb-1jO" secondAttribute="bottom" constant="15" id="O5E-eB-pYc"/>
                             <constraint firstItem="xqD-rb-1jO" firstAttribute="top" secondItem="Dwd-bm-jQP" secondAttribute="bottom" constant="15" id="UAj-0X-fjo"/>
                             <constraint firstItem="rPJ-UX-C8N" firstAttribute="trailing" secondItem="Mxu-5K-KKz" secondAttribute="trailing" constant="30" id="ZKx-9E-1HG"/>
                             <constraint firstItem="2wn-Hn-6wg" firstAttribute="centerY" secondItem="Kmf-Od-C1m" secondAttribute="centerY" id="kN4-7g-3E3"/>
-                            <constraint firstItem="2wn-Hn-6wg" firstAttribute="leading" secondItem="rPJ-UX-C8N" secondAttribute="leading" constant="45" id="kq0-cF-M7f"/>
+                            <constraint firstItem="2wn-Hn-6wg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="rPJ-UX-C8N" secondAttribute="leading" constant="45" id="kq0-cF-M7f"/>
                             <constraint firstItem="Dwd-bm-jQP" firstAttribute="centerX" secondItem="Kmf-Od-C1m" secondAttribute="centerX" id="oJn-OZ-Q9T"/>
                             <constraint firstItem="Mxu-5K-KKz" firstAttribute="leading" secondItem="rPJ-UX-C8N" secondAttribute="leading" constant="30" id="p0r-uo-rci"/>
                             <constraint firstItem="2wn-Hn-6wg" firstAttribute="centerX" secondItem="Kmf-Od-C1m" secondAttribute="centerX" id="yd9-NK-b9c"/>
-                            <constraint firstItem="rPJ-UX-C8N" firstAttribute="trailing" secondItem="2wn-Hn-6wg" secondAttribute="trailing" constant="45" id="z7v-4g-XP2"/>
+                            <constraint firstItem="rPJ-UX-C8N" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2wn-Hn-6wg" secondAttribute="trailing" constant="45" id="z7v-4g-XP2"/>
                         </constraints>
                     </view>
                     <connections>

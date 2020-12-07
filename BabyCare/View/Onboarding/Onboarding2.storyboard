@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tekan Tombol On pada Sisi Inkubator" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8U-FK-ynu">
-                                <rect key="frame" x="30" y="89" width="354" height="72"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tekan Tombol On pada Sisi Inkubator" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="W8U-FK-ynu">
+                                <rect key="frame" x="30" y="74" width="354" height="72"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding/2" translatesAutoresizingMaskIntoConstraints="NO" id="Ldj-7Y-qF5">
-                                <rect key="frame" x="45" y="286" width="324" height="324"/>
+                                <rect key="frame" x="68.5" y="309.5" width="277.5" height="277.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ldj-7Y-qF5" secondAttribute="height" multiplier="1:1" id="mKw-8F-oDI"/>
                                 </constraints>
@@ -68,15 +68,15 @@
                         <constraints>
                             <constraint firstItem="Ldj-7Y-qF5" firstAttribute="centerY" secondItem="xL0-g8-pEu" secondAttribute="centerY" id="ACf-1t-oxY"/>
                             <constraint firstItem="HIA-BJ-esY" firstAttribute="centerX" secondItem="xL0-g8-pEu" secondAttribute="centerX" id="AMz-l4-Yxd"/>
-                            <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" secondItem="Ldj-7Y-qF5" secondAttribute="trailing" constant="45" id="Eaq-5F-XCy"/>
+                            <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ldj-7Y-qF5" secondAttribute="trailing" constant="45" id="Eaq-5F-XCy"/>
                             <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" secondItem="ncx-PW-pca" secondAttribute="trailing" constant="60" id="IzQ-nF-Pwt"/>
                             <constraint firstItem="Ldj-7Y-qF5" firstAttribute="centerX" secondItem="xL0-g8-pEu" secondAttribute="centerX" id="KRI-ht-kmj"/>
                             <constraint firstItem="W8U-FK-ynu" firstAttribute="leading" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="30" id="OYg-4I-Chb"/>
                             <constraint firstItem="ncx-PW-pca" firstAttribute="top" secondItem="HIA-BJ-esY" secondAttribute="bottom" constant="15" id="PDu-ZT-cjY"/>
                             <constraint firstItem="Yoo-Zb-FrE" firstAttribute="bottom" secondItem="ncx-PW-pca" secondAttribute="bottom" constant="15" id="WDx-gX-XmM"/>
-                            <constraint firstItem="W8U-FK-ynu" firstAttribute="top" secondItem="Yoo-Zb-FrE" secondAttribute="top" constant="45" id="ble-HR-fgO"/>
+                            <constraint firstItem="W8U-FK-ynu" firstAttribute="top" secondItem="Yoo-Zb-FrE" secondAttribute="top" constant="30" id="ble-HR-fgO"/>
                             <constraint firstItem="ncx-PW-pca" firstAttribute="leading" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="60" id="ipL-Ps-MDH"/>
-                            <constraint firstItem="Ldj-7Y-qF5" firstAttribute="leading" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="45" id="jX8-Eo-OrD"/>
+                            <constraint firstItem="Ldj-7Y-qF5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="45" id="jX8-Eo-OrD"/>
                             <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" secondItem="W8U-FK-ynu" secondAttribute="trailing" constant="30" id="qmb-IJ-7nJ"/>
                         </constraints>
                     </view>
