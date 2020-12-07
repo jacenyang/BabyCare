@@ -16,10 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 let gcmMessageIDKey = "gcm.Message_ID"
     
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
         
         if #available(iOS 10.0, *) {
           // For iOS 10 display notification (sent via APNS)

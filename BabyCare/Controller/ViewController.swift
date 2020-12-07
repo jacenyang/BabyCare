@@ -22,19 +22,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        sensorManager.delegate = self
-        sensorManager.fetchSensor()
-        setup()
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
         if Core.shared.isNewUser(){
             let storyboard = UIStoryboard(name: "Onboarding", bundle: nil)
             let vc = storyboard.instantiateViewController(identifier: "onboarding") as! OnboardingViewController
             vc.modalPresentationStyle = .fullScreen
             present(vc, animated: true)
         }
+        sensorManager.delegate = self
+        sensorManager.fetchSensor()
+        setup()
     }
     
     func setup() {

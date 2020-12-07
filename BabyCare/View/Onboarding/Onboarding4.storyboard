@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZND-GQ-VQC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding4 View Controller-->
+        <scene sceneID="Pta-PR-BdQ">
+            <objects>
+                <viewController storyboardIdentifier="onboarding4" modalPresentationStyle="fullScreen" id="ZND-GQ-VQC" customClass="Onboarding4ViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mUg-6g-OHL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pastikan 5 Sensor Terpasang dengan Baik" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1oj-VN-C2v">
+                                <rect key="frame" x="30" y="89" width="354" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ein-2j-SFZ">
+                                <rect key="frame" x="60" y="802" width="294" height="45"/>
+                                <color key="backgroundColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="uq6-sA-CIB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <state key="normal" title="Selanjutnya">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="ZND-GQ-VQC" eventType="touchUpInside" id="xXy-kX-vWg"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="5Yk-3R-ZSH">
+                                <rect key="frame" x="82" y="264" width="250" height="368"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="XXY-dp-eUI" userLabel="First Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="64"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dlz-Kl-GXt" customClass="CheckBox" customModule="BabyCare" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="23" width="18" height="18"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="18" id="OTS-6m-cQi"/>
+                                                    <constraint firstAttribute="height" constant="18" id="gZQ-r5-8kl"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sensors/1" translatesAutoresizingMaskIntoConstraints="NO" id="Dt5-tJ-nJG">
+                                                <rect key="frame" x="30" y="0.0" width="64" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="64" id="Eg6-ig-Qm3"/>
+                                                    <constraint firstAttribute="width" constant="64" id="ZIh-41-gWv"/>
+                                                    <constraint firstAttribute="width" secondItem="Dt5-tJ-nJG" secondAttribute="height" multiplier="1:1" id="msD-rj-62w"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suhu bayi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqV-MO-Hza">
+                                                <rect key="frame" x="106" y="22" width="144" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="uFR-af-vfI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="3pb-LO-svZ" userLabel="Second Stack View">
+                                        <rect key="frame" x="0.0" y="76" width="250" height="64"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CaI-dy-vzV" customClass="CheckBox" customModule="BabyCare" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="23" width="18" height="18"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="18" id="Dgn-Ui-ukg"/>
+                                                    <constraint firstAttribute="height" constant="18" id="bFY-QE-D8p"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sensors/2" translatesAutoresizingMaskIntoConstraints="NO" id="yvi-WA-OhX">
+                                                <rect key="frame" x="30" y="0.0" width="64" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="64" id="36C-Ml-uQB"/>
+                                                    <constraint firstAttribute="width" secondItem="yvi-WA-OhX" secondAttribute="height" multiplier="1:1" id="5de-cN-Lua"/>
+                                                    <constraint firstAttribute="height" constant="64" id="vHK-WM-orI"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detak jantung bayi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zV6-xn-1wp">
+                                                <rect key="frame" x="106" y="22" width="144" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="y9N-IT-bQR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Ri7-bO-5dE" userLabel="Third Stack View">
+                                        <rect key="frame" x="0.0" y="152" width="250" height="64"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uuh-VQ-1EL" customClass="CheckBox" customModule="BabyCare" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="23" width="18" height="18"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="18" id="2ga-Mj-ewz"/>
+                                                    <constraint firstAttribute="height" constant="18" id="4SU-3Q-clf"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sensors/3" translatesAutoresizingMaskIntoConstraints="NO" id="67b-cp-VtW">
+                                                <rect key="frame" x="30" y="0.0" width="64" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="67b-cp-VtW" secondAttribute="height" multiplier="1:1" id="Nq5-iq-q4x"/>
+                                                    <constraint firstAttribute="width" constant="64" id="ikW-tI-4Ws"/>
+                                                    <constraint firstAttribute="height" constant="64" id="sIa-6v-xmr"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Berat badan bayi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnf-r2-0hN">
+                                                <rect key="frame" x="106" y="22" width="144" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="gpi-ek-cTE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZM4-Ea-dWJ" userLabel="Fourth Stack View">
+                                        <rect key="frame" x="0.0" y="228" width="250" height="64"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSb-Mc-09g" customClass="CheckBox" customModule="BabyCare" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="23" width="18" height="18"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="18" id="1Tb-CN-tcb"/>
+                                                    <constraint firstAttribute="height" constant="18" id="wuO-IX-m0J"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sensors/4" translatesAutoresizingMaskIntoConstraints="NO" id="aRI-hJ-4E0">
+                                                <rect key="frame" x="30" y="0.0" width="64" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="aRI-hJ-4E0" secondAttribute="height" multiplier="1:1" id="2Y8-3m-dtc"/>
+                                                    <constraint firstAttribute="height" constant="64" id="Dml-ak-IbS"/>
+                                                    <constraint firstAttribute="width" constant="64" id="rmq-6a-vZa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suhu kabin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ydA-oP-uAI">
+                                                <rect key="frame" x="106" y="22" width="144" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="fok-Yj-OzP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="UeV-Al-oY7" userLabel="Fifth Stack View">
+                                        <rect key="frame" x="0.0" y="304" width="250" height="64"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u3o-gL-x87" customClass="CheckBox" customModule="BabyCare" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="23" width="18" height="18"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="18" id="OID-yA-QGy"/>
+                                                    <constraint firstAttribute="width" constant="18" id="zwK-W0-cM5"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sensors/5" translatesAutoresizingMaskIntoConstraints="NO" id="LpO-Tk-YSv">
+                                                <rect key="frame" x="30" y="0.0" width="64" height="64"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="LpO-Tk-YSv" secondAttribute="height" multiplier="1:1" id="Bhz-O3-ewl"/>
+                                                    <constraint firstAttribute="width" constant="64" id="j5Q-ie-3BB"/>
+                                                    <constraint firstAttribute="height" constant="64" id="x1d-ld-Gz2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelembaban kabin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUG-Ms-kSj">
+                                                <rect key="frame" x="106" y="22" width="144" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="144" id="9tb-JD-wC2"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PdB-fv-vTL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ein-2j-SFZ" firstAttribute="leading" secondItem="PdB-fv-vTL" secondAttribute="leading" constant="60" id="4Yv-Bc-Q23"/>
+                            <constraint firstItem="1oj-VN-C2v" firstAttribute="top" secondItem="PdB-fv-vTL" secondAttribute="top" constant="45" id="NY2-oC-cXP"/>
+                            <constraint firstItem="5Yk-3R-ZSH" firstAttribute="centerX" secondItem="mUg-6g-OHL" secondAttribute="centerX" id="Sqo-3o-dmN"/>
+                            <constraint firstItem="1oj-VN-C2v" firstAttribute="leading" secondItem="PdB-fv-vTL" secondAttribute="leading" constant="30" id="UAJ-Qg-T2r"/>
+                            <constraint firstItem="PdB-fv-vTL" firstAttribute="bottom" secondItem="ein-2j-SFZ" secondAttribute="bottom" constant="15" id="Vbp-aZ-NeD"/>
+                            <constraint firstItem="5Yk-3R-ZSH" firstAttribute="centerY" secondItem="mUg-6g-OHL" secondAttribute="centerY" id="ZEg-tH-B6q"/>
+                            <constraint firstItem="PdB-fv-vTL" firstAttribute="trailing" secondItem="ein-2j-SFZ" secondAttribute="trailing" constant="60" id="bHP-qU-4z2"/>
+                            <constraint firstItem="PdB-fv-vTL" firstAttribute="trailing" secondItem="1oj-VN-C2v" secondAttribute="trailing" constant="30" id="u9g-EM-Gzl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="ein-2j-SFZ" id="uH2-qt-DZp"/>
+                        <outlet property="checkBox1" destination="Dlz-Kl-GXt" id="WSy-Bf-TCW"/>
+                        <outlet property="checkBox2" destination="CaI-dy-vzV" id="Z3D-cJ-9lh"/>
+                        <outlet property="checkBox3" destination="Uuh-VQ-1EL" id="dmf-xh-thc"/>
+                        <outlet property="checkBox4" destination="OSb-Mc-09g" id="9va-gn-wSg"/>
+                        <outlet property="checkBox5" destination="u3o-gL-x87" id="poO-3X-5Bz"/>
+                        <segue destination="3lR-6U-d8S" kind="custom" identifier="goToQR" customClass="SegueFromRight" customModule="BabyCare" customModuleProvider="target" id="OrD-G6-WJb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pdA-iI-wxb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="138.61607142857142"/>
+        </scene>
+        <!--QRScanner-->
+        <scene sceneID="HH0-Xt-P3z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="QRScanner" id="3lR-6U-d8S" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ujD-Cx-GH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sensors/1" width="77" height="77"/>
+        <image name="sensors/2" width="77" height="77"/>
+        <image name="sensors/3" width="77" height="77"/>
+        <image name="sensors/4" width="77" height="77"/>
+        <image name="sensors/5" width="77" height="77"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

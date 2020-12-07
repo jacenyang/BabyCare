@@ -12,7 +12,7 @@
         <!--Scanner View Controller-->
         <scene sceneID="df5-NA-VmX">
             <objects>
-                <viewController storyboardIdentifier="QRScanner" modalPresentationStyle="fullScreen" id="p3D-eR-MIg" customClass="QRScannerViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="p3D-eR-MIg" customClass="QRScannerViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KaK-ja-Kzq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

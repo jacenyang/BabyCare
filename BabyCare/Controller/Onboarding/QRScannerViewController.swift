@@ -7,8 +7,6 @@
 
 import UIKit
 
-import UIKit
-
 class QRScannerViewController: UIViewController {
     
     @IBOutlet weak var scannerView: QRScannerView! {
@@ -20,6 +18,7 @@ class QRScannerViewController: UIViewController {
     var qrData: QRData? = nil {
         didSet {
             if qrData != nil {
+                Core.shared.setIsNotNewUser()
                 performSegue(withIdentifier: "mainSegue", sender: nil)
             }
         }

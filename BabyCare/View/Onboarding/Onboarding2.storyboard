@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gOm-Sl-1D0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding2 View Controller-->
+        <scene sceneID="bYc-6U-B3K">
+            <objects>
+                <viewController storyboardIdentifier="onboarding2" modalPresentationStyle="fullScreen" id="gOm-Sl-1D0" customClass="Onboarding2ViewController" customModule="BabyCare" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xL0-g8-pEu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tekan Tombol On pada Sisi Inkubator" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W8U-FK-ynu">
+                                <rect key="frame" x="30" y="89" width="354" height="72"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding/2" translatesAutoresizingMaskIntoConstraints="NO" id="Ldj-7Y-qF5">
+                                <rect key="frame" x="45" y="286" width="324" height="324"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ldj-7Y-qF5" secondAttribute="height" multiplier="1:1" id="mKw-8F-oDI"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncx-PW-pca">
+                                <rect key="frame" x="60" y="802" width="294" height="45"/>
+                                <color key="backgroundColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="jFH-qP-3fb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                <state key="normal" title="Selanjutnya">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="gOm-Sl-1D0" eventType="touchUpInside" id="HNc-0z-jcg"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="HIA-BJ-esY">
+                                <rect key="frame" x="93.5" y="769" width="227.5" height="18"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KTu-1X-iCI" customClass="CheckBox" customModule="BabyCare" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="18" id="bP0-uA-1ts"/>
+                                            <constraint firstAttribute="height" constant="18" id="gLk-fl-Z5x"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Konfirmasi tombol power &quot;on&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9qP-91-cb3">
+                                        <rect key="frame" x="18" y="0.0" width="209.5" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="0.1082497165" green="0.2622925639" blue="0.28235745429999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yoo-Zb-FrE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ldj-7Y-qF5" firstAttribute="centerY" secondItem="xL0-g8-pEu" secondAttribute="centerY" id="ACf-1t-oxY"/>
+                            <constraint firstItem="HIA-BJ-esY" firstAttribute="centerX" secondItem="xL0-g8-pEu" secondAttribute="centerX" id="AMz-l4-Yxd"/>
+                            <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" secondItem="Ldj-7Y-qF5" secondAttribute="trailing" constant="45" id="Eaq-5F-XCy"/>
+                            <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" secondItem="ncx-PW-pca" secondAttribute="trailing" constant="60" id="IzQ-nF-Pwt"/>
+                            <constraint firstItem="Ldj-7Y-qF5" firstAttribute="centerX" secondItem="xL0-g8-pEu" secondAttribute="centerX" id="KRI-ht-kmj"/>
+                            <constraint firstItem="W8U-FK-ynu" firstAttribute="leading" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="30" id="OYg-4I-Chb"/>
+                            <constraint firstItem="ncx-PW-pca" firstAttribute="top" secondItem="HIA-BJ-esY" secondAttribute="bottom" constant="15" id="PDu-ZT-cjY"/>
+                            <constraint firstItem="Yoo-Zb-FrE" firstAttribute="bottom" secondItem="ncx-PW-pca" secondAttribute="bottom" constant="15" id="WDx-gX-XmM"/>
+                            <constraint firstItem="W8U-FK-ynu" firstAttribute="top" secondItem="Yoo-Zb-FrE" secondAttribute="top" constant="45" id="ble-HR-fgO"/>
+                            <constraint firstItem="ncx-PW-pca" firstAttribute="leading" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="60" id="ipL-Ps-MDH"/>
+                            <constraint firstItem="Ldj-7Y-qF5" firstAttribute="leading" secondItem="Yoo-Zb-FrE" secondAttribute="leading" constant="45" id="jX8-Eo-OrD"/>
+                            <constraint firstItem="Yoo-Zb-FrE" firstAttribute="trailing" secondItem="W8U-FK-ynu" secondAttribute="trailing" constant="30" id="qmb-IJ-7nJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="ncx-PW-pca" id="Rsz-FW-kdJ"/>
+                        <outlet property="checkBox" destination="KTu-1X-iCI" id="B4j-0l-Weo"/>
+                        <segue destination="Ega-rf-Gbo" kind="custom" identifier="goToOnboarding3" customClass="SegueFromRight" customModule="BabyCare" customModuleProvider="target" id="m2l-wu-BdS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AvB-QR-nVL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="138.61607142857142"/>
+        </scene>
+        <!--Onboarding3-->
+        <scene sceneID="CWX-FV-amC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding3" id="Ega-rf-Gbo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfT-n9-sJv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboarding/2" width="277.5" height="277.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
