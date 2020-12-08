@@ -41,7 +41,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="8Ga-i4-uz1" kind="show" id="gke-rq-WPB"/>
+                                                            <segue destination="8Ga-i4-uz1" kind="presentation" id="gke-rq-WPB"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -61,9 +61,6 @@
                                                     <constraint firstItem="UmR-C9-xLb" firstAttribute="leading" secondItem="hui-EW-z74" secondAttribute="leading" id="shb-II-G2a"/>
                                                     <constraint firstAttribute="bottom" secondItem="Iqs-bG-mba" secondAttribute="bottom" id="tCk-7C-q3m"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="FUR-Rf-cUN" appends="YES" id="n0t-2B-yEQ"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ORY-hP-h1R">
                                                 <rect key="frame" x="40" y="153" width="335" height="137"/>
@@ -83,7 +80,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="FEr-Rm-YWx" kind="show" id="BhP-40-1nl"/>
+                                                            <segue destination="FEr-Rm-YWx" kind="presentation" id="BhP-40-1nl"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -103,9 +100,6 @@
                                                     <constraint firstItem="3sr-wI-Zzv" firstAttribute="leading" secondItem="ORY-hP-h1R" secondAttribute="leading" constant="207" id="x2S-fR-ph2"/>
                                                     <constraint firstItem="3sr-wI-Zzv" firstAttribute="top" secondItem="ORY-hP-h1R" secondAttribute="top" id="y0C-e2-CTq"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="5gw-xT-vTS" appends="YES" id="rfJ-l5-Ayz"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3j-JU-e4d">
                                                 <rect key="frame" x="40" y="298" width="335" height="137"/>
@@ -125,7 +119,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="LRr-JU-fI4" kind="show" id="TBm-Zc-6Ya"/>
+                                                            <segue destination="LRr-JU-fI4" kind="presentation" id="TBm-Zc-6Ya"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -145,9 +139,6 @@
                                                     <constraint firstItem="Qek-G1-PyT" firstAttribute="leading" secondItem="ebt-tk-6lo" secondAttribute="trailing" constant="8" id="fkf-Zp-L8F"/>
                                                     <constraint firstItem="ebt-tk-6lo" firstAttribute="leading" secondItem="D3j-JU-e4d" secondAttribute="leading" constant="8" id="kNg-2O-DUr"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="jvZ-lG-MAL" appends="YES" id="gij-xS-c9h"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbB-lK-TKQ">
                                                 <rect key="frame" x="40" y="443" width="335" height="137"/>
@@ -167,7 +158,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="hgd-Xn-8gB" kind="show" id="Tg3-XQ-DbS"/>
+                                                            <segue destination="hgd-Xn-8gB" kind="presentation" id="Tg3-XQ-DbS"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -187,9 +178,6 @@
                                                     <constraint firstItem="ags-Rd-9h9" firstAttribute="leading" secondItem="EbB-lK-TKQ" secondAttribute="leading" id="ur5-QA-8He"/>
                                                     <constraint firstItem="atp-T9-zFZ" firstAttribute="leading" secondItem="EbB-lK-TKQ" secondAttribute="leading" constant="207" id="wgT-2i-TNQ"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="ff9-ue-ZtA" appends="YES" id="1vH-RC-j5N"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHO-vL-ag7">
                                                 <rect key="frame" x="40" y="588" width="335" height="137"/>
@@ -209,7 +197,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="j0D-yW-wzx" kind="show" id="0xf-ku-2xu"/>
+                                                            <segue destination="j0D-yW-wzx" kind="presentation" id="0xf-ku-2xu"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -229,9 +217,6 @@
                                                     <constraint firstItem="tkR-pa-bkb" firstAttribute="top" secondItem="JHO-vL-ag7" secondAttribute="top" id="sKd-Nh-pMx"/>
                                                     <constraint firstItem="NUw-aX-Puc" firstAttribute="top" secondItem="JHO-vL-ag7" secondAttribute="top" constant="40" id="tRR-UY-omm"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="kkM-yL-PYj" appends="YES" id="cGw-Ux-qpK"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMg-O5-26S">
                                                 <rect key="frame" x="40" y="733" width="335" height="137"/>
@@ -251,7 +236,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="W6Z-QU-0wn" kind="show" id="xSA-XK-KN0"/>
+                                                            <segue destination="W6Z-QU-0wn" kind="presentation" id="xSA-XK-KN0"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -271,9 +256,6 @@
                                                     <constraint firstItem="Y22-Tm-Nuw" firstAttribute="leading" secondItem="jMg-O5-26S" secondAttribute="leading" constant="207" id="odn-Zb-ZFh"/>
                                                     <constraint firstItem="Y22-Tm-Nuw" firstAttribute="top" secondItem="jMg-O5-26S" secondAttribute="top" id="z3R-NZ-HZ5"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="Z0J-Mf-pta" appends="YES" id="7kE-br-yKf"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gi3-X0-MZX">
                                                 <rect key="frame" x="40" y="878" width="335" height="137"/>
@@ -293,7 +275,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="jBl-50-Itt" kind="show" id="6UR-na-oUG"/>
+                                                            <segue destination="jBl-50-Itt" kind="presentation" id="6UR-na-oUG"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -313,9 +295,6 @@
                                                     <constraint firstItem="x81-md-CoT" firstAttribute="top" secondItem="Gi3-X0-MZX" secondAttribute="top" id="pbs-Bl-3G4"/>
                                                     <constraint firstItem="dDf-JS-yYm" firstAttribute="top" secondItem="Gi3-X0-MZX" secondAttribute="top" id="suw-k7-fDq"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="pHU-At-ngT" appends="YES" id="0qw-bx-qJ0"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4sf-aV-CYh">
                                                 <rect key="frame" x="40" y="1023" width="335" height="137"/>
@@ -335,7 +314,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="jaP-ZF-bsd" kind="show" id="L1K-Pg-MTv"/>
+                                                            <segue destination="jaP-ZF-bsd" kind="presentation" id="L1K-Pg-MTv"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -355,9 +334,6 @@
                                                     <constraint firstItem="dxP-vE-eAa" firstAttribute="top" secondItem="4sf-aV-CYh" secondAttribute="top" constant="40" id="uqY-N7-97N"/>
                                                     <constraint firstItem="dxP-vE-eAa" firstAttribute="leading" secondItem="4sf-aV-CYh" secondAttribute="leading" constant="8" id="zLV-eM-CuX"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="IRV-AA-t3i" appends="YES" id="FAJ-S8-gqx"/>
-                                                </connections>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eLf-79-Z87">
                                                 <rect key="frame" x="40" y="1168" width="335" height="137"/>
@@ -377,7 +353,7 @@
                                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="Hsn-Tv-Olu" kind="show" id="4Lk-HB-0t9"/>
+                                                            <segue destination="Hsn-Tv-Olu" kind="presentation" id="4Lk-HB-0t9"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -397,9 +373,6 @@
                                                     <constraint firstItem="EBF-vg-DJL" firstAttribute="leading" secondItem="eLf-79-Z87" secondAttribute="leading" constant="8" id="s6B-rf-0FR"/>
                                                     <constraint firstAttribute="trailing" secondItem="wRV-pX-7tv" secondAttribute="trailing" id="sUQ-hz-wNw"/>
                                                 </constraints>
-                                                <connections>
-                                                    <outletCollection property="gestureRecognizers" destination="LIL-Xk-0SK" appends="YES" id="64x-V4-Kwx"/>
-                                                </connections>
                                             </view>
                                         </subviews>
                                         <color key="backgroundColor" red="0.85905748609999999" green="0.925526917" blue="0.92157012220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -504,51 +477,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YMI-hZ-24w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="FUR-Rf-cUN">
-                    <connections>
-                        <segue destination="8Ga-i4-uz1" kind="presentation" id="c6m-eE-huS"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="5gw-xT-vTS">
-                    <connections>
-                        <segue destination="FEr-Rm-YWx" kind="presentation" id="eC0-UT-dvM"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="jvZ-lG-MAL">
-                    <connections>
-                        <segue destination="LRr-JU-fI4" kind="presentation" id="jYK-Ed-ljm"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="ff9-ue-ZtA">
-                    <connections>
-                        <segue destination="hgd-Xn-8gB" kind="presentation" id="CP1-C1-Y1D"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="kkM-yL-PYj">
-                    <connections>
-                        <segue destination="j0D-yW-wzx" kind="presentation" id="w7k-Iu-ylh"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Z0J-Mf-pta">
-                    <connections>
-                        <segue destination="W6Z-QU-0wn" kind="presentation" id="k1D-qV-pWN"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="pHU-At-ngT">
-                    <connections>
-                        <segue destination="jBl-50-Itt" kind="presentation" id="Ya0-TU-Duf"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="IRV-AA-t3i">
-                    <connections>
-                        <segue destination="jaP-ZF-bsd" kind="presentation" id="OFh-kp-XYo"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="LIL-Xk-0SK">
-                    <connections>
-                        <segue destination="Hsn-Tv-Olu" kind="presentation" id="5JI-1O-OXR"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="716.51785714285711"/>
         </scene>
@@ -889,17 +817,6 @@
             <point key="canvasLocation" x="712" y="549"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="5JI-1O-OXR"/>
-        <segue reference="L1K-Pg-MTv"/>
-        <segue reference="Ya0-TU-Duf"/>
-        <segue reference="xSA-XK-KN0"/>
-        <segue reference="0xf-ku-2xu"/>
-        <segue reference="CP1-C1-Y1D"/>
-        <segue reference="jYK-Ed-ljm"/>
-        <segue reference="BhP-40-1nl"/>
-        <segue reference="gke-rq-WPB"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Button Hold" width="718" height="196"/>
         <image name="arrow" width="11" height="18"/>
